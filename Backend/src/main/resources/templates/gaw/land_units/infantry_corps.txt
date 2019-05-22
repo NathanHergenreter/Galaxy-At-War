@@ -1,0 +1,16 @@
+type=Infantry Corps
+transportType=Heavy Transport
+buildTime=2
+cost=350
+manpower=12
+alloys=5
+hp=30000
+hardness=5
+attack=6
+defense=7
+boardingAttack=7
+boardingDefense=7
+infantryPower=8
+armorPower=5
+artilleryPower=7
+airPower=3

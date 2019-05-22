@@ -1,0 +1,11 @@
+type=Marine Corps
+hp=32000
+hardness=5
+attack=6
+defense=6
+boardingAttack=9
+boardingDefense=9
+infantryPower=8
+armorPower=4
+artilleryPower=3
+airPower=5

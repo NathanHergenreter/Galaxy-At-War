@@ -1,0 +1,850 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>galaxy-at-war documentation</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+	      <link rel="stylesheet" href="../styles/style.css">
+    </head>
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top visible-xs">
+            <a href="../" class="navbar-brand">galaxy-at-war documentation</a>
+            <button type="button" class="btn btn-default btn-menu ion-ios-menu" id="btn-menu"></button>
+        </div>
+
+        <div class="xs-menu menu" id="mobile-menu">
+                <div id="book-search-input" role="search"><input type="text" placeholder="Type to search"></div>            <compodoc-menu></compodoc-menu>
+        </div>
+
+        <div class="container-fluid main">
+           <div class="row main">
+               <div class="hidden-xs menu">
+                   <compodoc-menu mode="normal"></compodoc-menu>
+               </div>
+               <!-- START CONTENT -->
+               <div class="content component">
+                   <div class="content-data">
+
+
+
+
+<ol class="breadcrumb">
+  <li>Components</li>
+  <li>GamePregameComponent</li>
+</ol>
+
+<ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#info" role="tab" id="info-tab" data-toggle="tab" data-link="info">Info</a>
+        </li>
+        <li >
+            <a href="#source" role="tab" id="source-tab" data-toggle="tab" data-link="source">Source</a>
+        </li>
+        <li >
+            <a href="#templateData" role="tab" id="templateData-tab" data-toggle="tab" data-link="template">Template</a>
+        </li>
+        <li >
+            <a href="#styleData" role="tab" id="styleData-tab" data-toggle="tab" data-link="style">Styles</a>
+        </li>
+        <li >
+            <a href="#tree" role="tab" id="tree-tab" data-toggle="tab" data-link="dom-tree">DOM Tree</a>
+        </li>
+</ul>
+
+<div class="tab-content">
+    <div class="tab-pane fade active in" id="c-info"><p class="comment">
+    <h3>File</h3>
+</p>
+<p class="comment">
+    <code>src/app/UIcomponents/game-pregame/game-pregame.component.ts</code>
+</p>
+
+
+
+    <p class="comment">
+        <h3>Implements</h3>
+    </p>
+    <p class="comment">
+                    <code><a href="https://angular.io/api/core/OnInit" target="_blank" >OnInit</a></code>
+    </p>
+
+
+<section>
+    <h3>Metadata</h3>
+    <table class="table table-sm table-hover">
+        <tbody>
+
+
+
+
+
+
+
+
+
+
+
+            <tr>
+                <td class="col-md-3">selector</td>
+                <td class="col-md-9"><code>app-game-pregame</code></td>
+            </tr>
+
+            <tr>
+                <td class="col-md-3">styleUrls</td>
+                <td class="col-md-9"><code>./game-pregame.component.css</code></td>
+            </tr>
+
+
+
+            <tr>
+                <td class="col-md-3">templateUrl</td>
+                <td class="col-md-9"><code>./game-pregame.component.html</code></td>
+            </tr>
+
+
+
+
+
+
+
+
+        </tbody>
+    </table>
+</section>
+
+    <section>
+    <h3 id="index">Index</h3>
+    <table class="table table-sm table-bordered index-table">
+        <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Properties</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                <a href="#currentColor">currentColor</a>
+                            </li>
+                            <li>
+                                <a href="#gameSession">gameSession</a>
+                            </li>
+                            <li>
+                                <a href="#selectedColor">selectedColor</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Methods</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                <a href="#ngOnInit">ngOnInit</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Private</span>
+                                <a href="#onExit">onExit</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Private</span>
+                                <a href="#onReady">onReady</a>
+                            </li>
+                            <li>
+                                <a href="#selectColor">selectColor</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+
+
+
+
+        </tbody>
+    </table>
+</section>
+
+    <section>
+    <h3 id="constructor">Constructor</h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+<code>constructor(_router: <a href="https://angular.io/api/router/Router" target="_blank">Router</a>, _GameConfig: <a href="../injectables/GameConfigService.html">GameConfigService</a>, _userSession: <a href="../injectables/UserSessionService.html">UserSessionService</a>, _xmlhttp: <a href="../injectables/XmlhttpService.html">XmlhttpService</a>)</code>
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="17" class="link-to-prism">src/app/UIcomponents/game-pregame/game-pregame.component.ts:17</a></div>
+                            </td>
+                        </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                            <div>
+                                    <b>Parameters :</b>
+                                    <table class="params">
+                                        <thead>
+                                            <tr>
+                                                <td>Name</td>
+                                                    <td>Type</td>
+                                                <td>Optional</td>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                                <tr>
+                                                        <td>_router</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="https://angular.io/api/router/Router" target="_blank" >Router</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>_GameConfig</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="../injectables/GameConfigService.html" target="_self" >GameConfigService</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>_userSession</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="../injectables/UserSessionService.html" target="_self" >UserSessionService</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>_xmlhttp</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="../injectables/XmlhttpService.html" target="_self" >XmlhttpService</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                        </tbody>
+                                    </table>
+                            </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+</section>
+
+
+
+
+
+    <section>
+    
+    <h3 id="methods">
+        Methods
+    </h3>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="ngOnInit"></a>
+                    <span class="name">
+                        <b>
+                            ngOnInit
+                        </b>
+                        <a href="#ngOnInit"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>ngOnInit()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="28"
+                            class="link-to-prism">src/app/UIcomponents/game-pregame/game-pregame.component.ts:28</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="onExit"></a>
+                    <span class="name">
+                        <b>
+                            <span class="modifier">Private</span>
+                            onExit
+                        </b>
+                        <a href="#onExit"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>onExit()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="32"
+                            class="link-to-prism">src/app/UIcomponents/game-pregame/game-pregame.component.ts:32</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="onReady"></a>
+                    <span class="name">
+                        <b>
+                            <span class="modifier">Private</span>
+                            onReady
+                        </b>
+                        <a href="#onReady"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>onReady()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="37"
+                            class="link-to-prism">src/app/UIcomponents/game-pregame/game-pregame.component.ts:37</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="selectColor"></a>
+                    <span class="name">
+                        <b>
+                            selectColor
+                        </b>
+                        <a href="#selectColor"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>selectColor()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="41"
+                            class="link-to-prism">src/app/UIcomponents/game-pregame/game-pregame.component.ts:41</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+    <section>
+    
+        <h3 id="inputs">
+            Properties
+        </h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="currentColor"></a>
+                        <span class="name">
+                            <b>
+                            currentColor</b>
+                            <a href="#currentColor"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="17" class="link-to-prism">src/app/UIcomponents/game-pregame/game-pregame.component.ts:17</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="gameSession"></a>
+                        <span class="name">
+                            <b>
+                            gameSession</b>
+                            <a href="#gameSession"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/object" target="_blank" >object</a></code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>{
+    playerColors: 
+    [
+      {
+        name: &#x27;Player 1&#x27;,
+        color: &#x27;#283AD6&#x27;
+      },
+      {
+        name: &#x27;Player 2&#x27;,
+        color: &#x27;#D61919&#x27;
+      },
+      {
+        name: &#x27;Player 3&#x27;,
+        color: &#x27;#2ED33C&#x27;
+      },
+      {
+        name: &#x27;Player 4&#x27;,
+        color: &#x27;#FFE74C&#x27;
+      }
+    ],
+
+    name: &#x27;Test Game&#x27;,
+    playerCount: 4,
+    planetCount: 30,
+    startMoney: 2500,
+    startPoints: 1000,
+    readyCount: 3
+  }</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="45" class="link-to-prism">src/app/UIcomponents/game-pregame/game-pregame.component.ts:45</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="selectedColor"></a>
+                        <span class="name">
+                            <b>
+                            selectedColor</b>
+                            <a href="#selectedColor"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="16" class="link-to-prism">src/app/UIcomponents/game-pregame/game-pregame.component.ts:16</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+</section>
+
+</div>
+
+
+    <div class="tab-pane fade  tab-source-code" id="c-source">
+        <pre class="line-numbers compodoc-sourcecode"><code class="language-typescript">import { Component, OnInit } from &#x27;@angular/core&#x27;;
+import { Router } from &#x27;@angular/router&#x27;;
+import { UserSessionService } from &#x27;src/app/services/user-session.service&#x27;;
+import { GameConfigService } from &#x27;src/app/services/game-config.service&#x27;;
+import { XmlhttpService } from &#x27;src/app/services/xmlhttp.service&#x27;;
+import { TestBed } from &#x27;@angular/core/testing&#x27;;
+
+@Component({
+    selector: &#x27;app-game-pregame&#x27;,
+    templateUrl: &#x27;./game-pregame.component.html&#x27;,
+    styleUrls: [&#x27;./game-pregame.component.css&#x27;]
+  })
+  
+export class GamePregameComponent implements OnInit {
+
+  selectedColor;
+  currentColor;
+
+    constructor(
+      private _router: Router,
+      //TODO - add service?
+      private _GameConfig: GameConfigService,
+      private _userSession: UserSessionService,
+      private _xmlhttp: XmlhttpService) {
+      }
+
+      //TODO
+      ngOnInit() {
+          
+      }
+      
+    private onExit() {
+      this._router.navigate([&#x27;game-discovery-lobby&#x27;]);
+      // this._router.navigate([&#x27;profile&#x27;]);
+    }
+    
+    private onReady() {
+      this._router.navigate([&#x27;game-dashboard&#x27;]);
+    }
+    
+  selectColor() {
+    this.currentColor &#x3D; this.selectedColor ? this.selectedColor.hex : undefined;
+  }
+
+  gameSession &#x3D; {
+    playerColors: 
+    [
+      {
+        name: &#x27;Player 1&#x27;,
+        color: &#x27;#283AD6&#x27;
+      },
+      {
+        name: &#x27;Player 2&#x27;,
+        color: &#x27;#D61919&#x27;
+      },
+      {
+        name: &#x27;Player 3&#x27;,
+        color: &#x27;#2ED33C&#x27;
+      },
+      {
+        name: &#x27;Player 4&#x27;,
+        color: &#x27;#FFE74C&#x27;
+      }
+    ],
+
+    name: &#x27;Test Game&#x27;,
+    playerCount: 4,
+    planetCount: 30,
+    startMoney: 2500,
+    startPoints: 1000,
+    readyCount: 3
+  };
+}</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-templateData">
+        <pre class="line-numbers"><code class="language-html">&lt;body&gt;
+    &lt;h1&gt;
+        {{gameSession.name}}
+    &lt;/h1&gt;
+    &lt;h2 class&#x3D;&quot;hlabel players&quot;&gt;
+        Players
+    &lt;/h2&gt;
+    &lt;h2 class&#x3D;&quot;hlabel players&quot;&gt;
+        Game Settings
+    &lt;/h2&gt;
+    &lt;div class&#x3D;&quot;box players&quot;&gt;
+        &lt;div class&#x3D;&quot;row&quot; *ngFor&#x3D;&quot;let player of gameSession.playerColors&quot;&gt;
+            &lt;b class&#x3D;&quot;colorBox&quot; [ngStyle]&#x3D;&quot;{&#x27;background-color&#x27;: player.color}&quot;&gt;
+            &lt;/b&gt;
+            {{player.name}}
+              
+        &lt;/div&gt;
+        &lt;div class&#x3D;&quot;row&quot;&gt;
+            &lt;b class&#x3D;&quot;rowTitle&quot;&gt;Ready:&lt;/b&gt; 
+            {{gameSession.readyCount}}/{{gameSession.playerCount}}
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class&#x3D;&quot;box config&quot;&gt;
+        &lt;div class&#x3D;&quot;row&quot;&gt;
+            &lt;b class&#x3D;&quot;rowTitle&quot;&gt;Player Count:&lt;/b&gt;
+            {{gameSession.playerCount}}
+        &lt;/div&gt;
+        &lt;div class&#x3D;&quot;row&quot;&gt;
+            &lt;b class&#x3D;&quot;rowTitle&quot;&gt;Planet Count:&lt;/b&gt; 
+            {{gameSession.planetCount}}
+        &lt;/div&gt;
+        &lt;div class&#x3D;&quot;row&quot;&gt;
+            &lt;b class&#x3D;&quot;rowTitle&quot;&gt;Starting Money:&lt;/b&gt;
+            {{gameSession.startMoney}}
+        &lt;/div&gt;
+        &lt;div class&#x3D;&quot;row&quot;&gt;
+            &lt;b class&#x3D;&quot;rowTitle&quot;&gt; Starting Points:&lt;/b&gt;
+            {{gameSession.startPoints}}
+        &lt;/div&gt;
+        &lt;div class&#x3D;&quot;row&quot;&gt;
+            &lt;b&gt;Player Color:&lt;/b&gt; 
+            &lt;input class&#x3D;&quot;colorInput&quot; type&#x3D;&quot;color&quot; name&#x3D;&quot;selectedColor&quot; value&#x3D;&quot;#0000FF&quot; (input)&#x3D;&quot;setColor()&quot;&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;button class&#x3D;&quot;decision&quot; type&#x3D;&quot;button&quot; (click)&#x3D;&quot;onExit()&quot; value&#x3D;&quot;Exit&quot;&gt;
+        Exit
+    &lt;/button&gt;
+    &lt;button class&#x3D;&quot;decision&quot; type&#x3D;&quot;button&quot; (click)&#x3D;&quot;onReady()&quot; value&#x3D;&quot;Ready&quot;&gt;
+            Ready
+    &lt;/button&gt;
+&lt;/body&gt;</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-styleData">
+                <p class="comment">
+                    <code>./game-pregame.component.css</code>
+                </p>
+                <pre class="line-numbers"><code class="language-scss">body {
+    margin: 0px;
+    min-height: 100vh;
+    width: 100%;
+    background-color: #232935;
+    color: #92D5EE;
+}
+
+h1 {
+    text-align: center;
+    font-size: 54px;
+    margin-bottom: 20px;
+    color: #D64C4C;
+}
+
+.hlabel {
+    position: relative;
+    left: 280px;
+    font-size: 32px;
+    color: #D64C4C;
+}
+
+.box {
+    margin: 5px 20px;
+    min-height: 50vh;
+    background-color: #5A6889;
+    border: 1px solid #92D5EE;
+}
+
+.players {
+    float: left;
+    width: 50%;
+}
+
+.config {
+    float: right;
+    width: 35%;
+}
+
+.decision {
+    width: 12.5%;
+    padding: 8px 12px;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-left: 20px;
+    box-sizing: border-box;
+    background-color: rgb(44, 53, 71);
+    color: #92D5EE;
+    border: 2px solid #92D5EE;
+    border-radius: 4px;
+}
+
+.row {
+    position: relative;
+    left: 3%;
+    width: 90%;
+    margin-top: 15px;
+    margin-left: 6px;
+    padding: 6px 10px;
+    font-size: 18px;
+    background-color: #3e495e;
+}
+
+.colorInput {
+    margin-left: 10px;
+}
+
+.colorBox {
+    width: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.rowTitle {
+    margin-right: 6px;
+}</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-tree">
+        <div id="tree-container"></div>
+        <div class="tree-legend">
+            <div class="title">
+                <b>Legend</b>
+            </div>
+            <div>
+                <div class="color htmlelement"></div><span>Html element</span>
+            </div>
+            <div>
+                <div class="color component"></div><span>Component</span>
+            </div>
+            <div>
+                <div class="color directive"></div><span>Html element with directive</span>
+            </div>
+        </div>
+    </div>
+
+    
+</div>
+
+<script src="../js/libs/vis.min.js"></script>
+<script src="../js/libs/htmlparser.js"></script>
+<script src="../js/libs/deep-iterator.js"></script>
+<script>
+        var COMPONENT_TEMPLATE = '<div><body>    <h1>        {{gameSession.name}}    </h1>    <h2 class="hlabel players">        Players    </h2>    <h2 class="hlabel players">        Game Settings    </h2>    <div class="box players">        <div class="row" *ngFor="let player of gameSession.playerColors">            <b class="colorBox" [ngStyle]="{\'background-color\': player.color}">            </b>            {{player.name}}                      </div>        <div class="row">            <b class="rowTitle">Ready:</b>             {{gameSession.readyCount}}/{{gameSession.playerCount}}        </div>    </div>    <div class="box config">        <div class="row">            <b class="rowTitle">Player Count:</b>            {{gameSession.playerCount}}        </div>        <div class="row">            <b class="rowTitle">Planet Count:</b>             {{gameSession.planetCount}}        </div>        <div class="row">            <b class="rowTitle">Starting Money:</b>            {{gameSession.startMoney}}        </div>        <div class="row">            <b class="rowTitle"> Starting Points:</b>            {{gameSession.startPoints}}        </div>        <div class="row">            <b>Player Color:</b>             <input class="colorInput" type="color" name="selectedColor" value="#0000FF" (input)="setColor()">        </div>    </div>    <button class="decision" type="button" (click)="onExit()" value="Exit">        Exit    </button>    <button class="decision" type="button" (click)="onReady()" value="Ready">            Ready    </button></body></div>'
+    var COMPONENTS = [{'name': 'AppComponent', 'selector': 'app-root'},{'name': 'ChatComponent', 'selector': 'app-chat'},{'name': 'CreateAccountComponent', 'selector': 'app-create-account'},{'name': 'GameConfigLobbyComponent', 'selector': 'app-game-config-lobby'},{'name': 'GameDashboardComponent', 'selector': 'app-game-dashboard'},{'name': 'gameDiscoveryLobbyComponent', 'selector': 'app-game-discovery-lobby'},{'name': 'GamePregameComponent', 'selector': 'app-game-pregame'},{'name': 'ProfileComponent', 'selector': 'app-profile'},{'name': 'SigninComponent', 'selector': 'app-signin'},{'name': 'SocketsComponent', 'selector': 'app-sockets'}];
+    var DIRECTIVES = [];
+    var ACTUAL_COMPONENT = {'name': 'GamePregameComponent'};
+</script>
+<script src="../js/tree.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                   </div><div class="search-results">
+    <div class="has-results">
+        <h1 class="search-results-title"><span class='search-results-count'></span> result-matching "<span class='search-query'></span>"</h1>
+        <ul class="search-results-list"></ul>
+    </div>
+    <div class="no-results">
+        <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+    </div>
+</div>
+</div>
+               <!-- END CONTENT -->
+           </div>
+       </div>
+
+       <script>
+            var COMPODOC_CURRENT_PAGE_DEPTH = 1;
+            var COMPODOC_CURRENT_PAGE_CONTEXT = 'component';
+            var COMPODOC_CURRENT_PAGE_URL = 'GamePregameComponent.html';
+       </script>
+
+       <script src="../js/libs/custom-elements.min.js"></script>
+       <script src="../js/libs/lit-html.js"></script>
+       <!-- Required to polyfill modern browsers as code is ES5 for IE... -->
+       <script src="../js/libs/custom-elements-es5-adapter.js" charset="utf-8" defer></script>
+       <script src="../js/menu-wc.js" defer></script>
+
+       <script src="../js/libs/bootstrap-native.js"></script>
+
+       <script src="../js/libs/es6-shim.min.js"></script>
+       <script src="../js/libs/EventDispatcher.js"></script>
+       <script src="../js/libs/promise.min.js"></script>
+       <script src="../js/libs/zepto.min.js"></script>
+
+       <script src="../js/compodoc.js"></script>
+
+       <script src="../js/tabs.js"></script>
+       <script src="../js/menu.js"></script>
+       <script src="../js/libs/clipboard.min.js"></script>
+       <script src="../js/libs/prism.js"></script>
+       <script src="../js/sourceCode.js"></script>
+          <script src="../js/search/search.js"></script>
+          <script src="../js/search/lunr.min.js"></script>
+          <script src="../js/search/search-lunr.js"></script>
+          <script src="../js/search/search_index.js"></script>
+       <script src="../js/lazy-load-graphs.js"></script>
+
+
+    </body>
+</html>

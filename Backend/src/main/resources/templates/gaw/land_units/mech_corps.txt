@@ -1,0 +1,16 @@
+type=Mech Corps
+transportType=Heavy Transport
+buildTime=4
+cost=900
+manpower=12
+alloys=10
+hp=50000
+hardness=8
+attack=7
+defense=6
+boardingAttack=5
+boardingDefense=5
+infantryPower=7
+armorPower=8
+artilleryPower=3
+airPower=3

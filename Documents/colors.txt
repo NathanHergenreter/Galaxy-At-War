@@ -1,0 +1,120 @@
+
+#### ROW 1 - RED ####
+		burgundy	= { flag = rgb { 84 17 38 }    map = hsv { 0.95 0.8 0.35 } }	#Red
+		brick_red	= { flag = rgb { 137 0 16 }   map = rgb { 137 0 16 } }			#Red
+		denmark_red	= { flag = rgb { 193 26 14 }   map = rgb { 193 26 14 } }		#Red
+		english_red	= { flag = rgb { 193 26 14 }   map = rgb { 193 26 14 } }		#Red	
+		red		= { flag = rgb { 100 0 12 }     map = hsv { 0.98 1.0 0.4 } }	#Red
+		albania_red	= { flag = rgb { 181 0 20 }   map = rgb { 181 0 20 } }			#Red	
+		true_red	= { flag = rgb { 255 20 28 }   map = rgb { 255 20 28 } }		#Red	
+		hungary_red	= { flag = rgb { 170 0 6 }   map = rgb { 170 0 6 } }			#Red	
+		brownish_red	= { flag = rgb { 159 47 61 }   map = rgb { 159 47 61 } }		#Red		
+		light_red	= { flag = rgb { 216 41 61 }   map = rgb { 216 41 61 } }		#Red	
+
+#### ROW 2 - ORANGE ####	
+		red_orange	= { flag = rgb { 172 51 43 }    map = hsv { 0.01 0.75 0.7 } }	#Orange	
+		orange		= { flag = rgb { 171 92 18 }     map = hsv { 0.08 0.9 0.7 } }	#Orange	
+		light_orange	= { flag = rgb { 255 136 33 }   map = rgb { 255 136 33 } }		#Orange		
+		faded_orange	= { flag = rgb { 255 149 79 }   map = rgb { 255 149 79 } }		#Orange	
+		dark_pumpkin	= { flag = rgb { 234 78 0 }   map = rgb { 234 78 0 } }			#Orange	
+		pumpkin		= { flag = rgb { 255 85 0 }   map = rgb { 255 85 0 } }			#Orange	
+		true_orange	= { flag = rgb { 255 114 0 }   map = rgb { 255 114 0 } }		#Orange	
+		dark_orange	= { flag = rgb { 226 98 0 }   map = rgb { 226 98 0 } }			#Orange	
+		yellow_orange	= { flag = rgb { 255 159 51 }   map = rgb { 255 159 51 } }		#Orange	
+		sunflower	= { flag = rgb { 255 159 0 }   map = rgb { 255 159 0 } }		#Orange	
+
+#### ROW 3 - YELLOW ####		
+		gold		= { flag = rgb { 255 217 39 }   map = rgb { 255 217 39 } }		#Yellow	
+		true_gold	= { flag = rgb { 224 224 0 }   map = rgb { 224 224 0 } }		#Yellow	
+		castillian	= { flag = rgb { 193 171 8 }   map = rgb { 193 171 8 } }		#Yellow	
+		dark_gold	= { flag = rgb { 219 185 35 }   map = rgb { 219 185 35 } }		#Yellow	
+		brown_gold	= { flag = rgb { 150 150 0 }   map = rgb { 150 150 0 } }		#Yellow	
+		alsace		= { flag = rgb { 246 223 15 }   map = rgb { 246 223 15 } }		#Yellow	
+		yellow		= { flag = rgb { 248 248 0 }   map = rgb { 248 248 0 } }		#Yellow			
+		grey_yellow	= { flag = rgb { 249 234 94 }   map = rgb { 249 234 94 } }		#Yellow	
+		yellow_green	= { flag = rgb { 170 224 0 }   map = rgb { 170 224 0 } }		#Yellow	
+		dark_yellow_green	= { flag = rgb { 177 193 0 }   map = rgb { 177 193 0 } }	#Yellow	
+	
+#### ROW 4 - GREEN ####				
+		dark_green	= { flag = rgb { 26 66 26 }    map = hsv { 0.33 0.6 0.27 } }	#Green	
+		green		= { flag = rgb { 44 97 40 }	map = hsv { 0.32 0.6 0.40 } }	#Green	
+		light_green	= { flag = rgb { 121 255 109 }   map = rgb { 121 255 109 } }		#Green
+		neon_green	= { flag = rgb { 21 255 0 }   map = rgb { 21 255 0 } }			#Green	
+		irish_green	= { flag = rgb { 48 164 51 }   map = rgb { 48 164 51 } }		#Green	
+		light_olive	= { flag = rgb { 126 203 120 }   map = rgb { 126 203 120 } }		#Green	
+		olive		= { flag = rgb { 35 201 30 }   map = rgb { 35 201 30 } }		#Green			
+		dark_olive	= { flag = rgb { 84 130 83 }   map = rgb { 84 130 83 } }		#Green	
+		sea_green	= { flag = rgb { 57 160 101 }   map = rgb { 57 160 101 } }		#Green	
+		bluish_green	= { flag = rgb { 0 219 105 }   map = rgb { 0 219 105 } }		#Green	
+
+#### ROW 5 - TURQOISE ####	
+		sea_foam	= { flag = rgb { 0 219 204 }   map = rgb { 66 155 255 } }		#Turquoise2	
+		spearmint	= { flag = rgb { 48 200 176 }   map = rgb { 48 200 176 } }		#Turquoise1
+		mint		= { flag = rgb { 47 255 171 }   map = rgb { 47 255 171 } }		#Turquoise1
+		turquoise	= { flag = rgb { 57 146 142 }     map = hsv { 0.53 0.6 0.5 }   }	#Turquoise1
+		faded_teal	= { flag = rgb { 131 182 196 }   map = rgb { 131 182 196 } }		#Turquoise2		
+		teal		= { flag = rgb { 49 120 86  }    map = hsv { 0.42 0.6 0.5  }  }	#Turquoise2	
+		dark_teal	= { flag = rgb { 25 64 63 }      map = hsv { 0.5 0.6 0.3 } }		#Turquoise2	
+		ocean_blue	= { flag = rgb { 73 170 198 }   map = rgb { 73 170 198 } }		#Turquoise1	
+		seawater	= { flag = rgb { 0 120 145 }   map = rgb { 0 120 145 } }		#Turquoise1	
+		dark_ocean	= { flag = rgb { 50 118 135 }   map = rgb { 50 118 135 } }		#Turquoise1	
+
+#### ROW 6 - BLUE ####		
+		cyan		= { flag = rgb { 66 155 255 }   map = rgb { 66 155 255 } }		#Blue2
+		baby_blue	= { flag = rgb { 181 216 255 }   map = rgb { 181 216 255 } }		#Blue2	
+		ice_blue	= { flag = rgb { 112 238 255 }   map = rgb { 112 238 255 } }		#Blue1	
+		bavarian	= { flag = rgb { 17 116 193 }   map = rgb { 17 116 193 } }		#Blue2	
+		american	= { flag = rgb { 69 157 208 }   map = rgb { 69 157 208 } }		#Blue2
+		blue_grey	= { flag = rgb { 93 108 175 }   map = rgb { 93 108 175 } }		#Blue2
+		true_blue	= { flag = rgb { 38 48 255 }   map = rgb { 38 48 255 } }		#Blue1
+		blue		= { flag = rgb { 40 58 156 }   map = hsv { 0.64 0.75 0.75 } }	#Blue1
+		dark_blue	= { flag = rgb { 13 26 94 }   map = hsv { 0.64 0.85 0.45 } }	#Blue1
+		prussian_blue	= { flag = rgb { 38 48 97 }   map = rgb { 38 48 97 } }			#Blue1	
+
+#### ROW 7 - PURPLE ####			
+		indigo		= { flag = rgb { 44 19 123 }    map = hsv { 0.71 0.85 0.5 }  }	#Purple2
+		byzantium	= { flag = rgb { 93 57 84 }   map = rgb { 93 57 84 } }			#Purple2
+		light_purple	= { flag = rgb { 181 124 255 }   map = rgb { 181 124 255 } }		#Purple1
+		soft_violet	= { flag = rgb { 201 186 242 }   map = rgb { 201 186 242 } }		#Purple1
+		covenant	= { flag = rgb { 81 0 194 }   map = rgb { 81 0 194 } }			#Purple1
+		purple		= { flag = rgb { 100 54 158 }       map = rgb { 100 54 158 } }		#Purple1
+		dark_purple 	= { flag = rgb { 61 27 96 }         map = rgb { 61 27 96 } }		#Purple2
+		true_purple	= { flag = rgb { 155 51 255 }   map = rgb { 155 51 255 } }		#Purple1
+		magenta		= { flag = rgb { 155 51 145 }   map = rgb { 155 51 145 } }		#Purple2
+		dark_magenta	= { flag = rgb { 153 0 140 }   map = rgb { 153 0 140 } }		#Purple2
+
+#### ROW 8 - PINK ####	
+		pink		= { flag = rgb { 130 50 105 }       map = rgb { 130 50 105 }  }		#Pink
+		dark_pink	= { flag = rgb { 181 106 140 }   map = rgb { 181 106 140 } }		#Pink
+		true_pink	= { flag = rgb { 239 139 184 }   map = rgb { 239 139 184 } }		#Pink
+		truer_pink	= { flag = rgb { 255 102 242 }   map = rgb { 255 102 242 } }		#Pink
+		light_pink	= { flag = rgb { 255 99 208 }       map = hsv { 255 99 208 }  }		#Pink	
+		baby_pink	= { flag = rgb { 255 181 248 }   map = rgb { 255 181 248 } }		#Pink	
+		lip_pink	= { flag = rgb { 212 105 118 }       map = rgb { 212 105 118 }  }	#Pink	
+		faded_pink	= { flag = rgb { 216 145 153 }   map = rgb { 216 145 153 } }		#Pink	
+		hot_pink	= { flag = rgb { 241 64 87 }       map = rgb { 241 64 87 }  }		#Pink	
+		reddish_pink	= { flag = rgb { 237 0 106 }       map = rgb { 237 0 106 }  }		#Pink	
+
+#### ROW 9 - BROWN ####	
+		tan		= { flag = rgb { 255 205 170 }   map = rgb { 255 205 170 } }		#Brown	
+		light_brown	= { flag = rgb { 196 120 76 }   map = rgb { 196 120 76 } }		#Brown	
+		sand		= { flag = rgb { 188 166 93 }   map = rgb { 188 166 93 } }		#Brown	
+		faded_brown	= { flag = rgb { 150 114 84 }   map = rgb { 150 114 84 } }		#Brown	
+		ming_brown	= { flag = rgb { 179 128 104 }   map = rgb { 179 128 104 } }		#Brown	
+		steppe_brown	= { flag = rgb { 146 134 77 }   map = rgb { 146 134 77 } }		#Brown	
+		dark_sand	= { flag = rgb { 146 134 57 }   map = rgb { 146 134 57 } }		#Brown	
+		grey_brown	= { flag = rgb { 131 101 85 }   map = rgb { 131 101 85 } }		#Brown		
+		brown 		= { flag = rgb { 96 63 38 }     map = hsv { 0.07 0.6 0.4 } }	#Brown	
+		dark_brown 	= { flag = rgb { 55 36 22 }	map = hsv { 0.07 0.6 0.23 } }	#Brown	
+
+#### ROW 10 - NEUTRAL ####
+		white		= { flag = rgb { 240 240 240 }   map = rgb { 240 240 240 } }
+		salt		= { flag = rgb { 220 220 220 }   map = rgb { 220 220 220 } }		#Neutral
+		dark_salt	= { flag = rgb { 200 200 200 }   map = rgb { 200 200 200 } }		#Neutral
+		lighter_grey	= { flag = rgb { 180 180 180 }   map = rgb { 180 180 180 } }		#Neutral
+		light_grey	= { flag = rgb { 150 150 150 }   map = rgb { 150 150 150 } }		#Neutral
+		grey		= { flag = rgb { 100 100 100 }   map = hsv { 0.58 0.15 0.6 } }	#Neutral
+		darkish_grey	= { flag = rgb { 69 69 69 }   map = rgb { 69 69 69 } }			#Neutral	
+		dark_grey	= { flag = rgb { 50 50 50 }   map = hsv { 0.6 0.2 0.3 } }		#Neutral
+		darkest_grey	= { flag = rgb { 36 36 36 }   map = rgb { 36 36 36 } }			#Neutral				
+		black		= { flag = rgb { 10 10 10 }     map = hsv { 0.7 0.1 0.18 } }	#Neutral

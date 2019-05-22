@@ -1,0 +1,6 @@
+name=Tundra
+minRoughness=20
+maxRoughness=40
+popMod=.4
+minMinerals=3
+maxMinerals=6

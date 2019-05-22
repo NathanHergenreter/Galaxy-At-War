@@ -1,0 +1,6 @@
+name=Volcanic
+minRoughness=80
+maxRoughness=100
+popMod=.2
+minMinerals=6
+maxMinerals=9

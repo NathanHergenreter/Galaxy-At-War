@@ -1,0 +1,15 @@
+type=Heavy Cruiser
+cargoType=Marine Division
+buildTime=6
+cost=1200
+manpower=8
+alloys=18
+hp=45000
+size=5
+armor=7
+evasion=6
+firepower=6
+range=3
+craftHP=5000
+craftPower=5
+craftDefense=6

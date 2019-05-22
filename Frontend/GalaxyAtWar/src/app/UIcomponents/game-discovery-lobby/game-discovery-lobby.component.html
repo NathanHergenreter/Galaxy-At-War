@@ -1,0 +1,30 @@
+<body>
+    <button class="profilebtn" type="button" (click)="gotoProfilePage()" value="Profile">Profile</button>
+    <div class="mainDiv">
+    <h1>Lobby Browser</h1><br>
+    <app-chat></app-chat>
+    <br>
+    <h3>Available Games</h3>
+    <div class="tableDiv">
+      <table class="center">
+        <tr>
+          <th class="gameh">Game</th>
+          <th>Players</th>
+          <th>Planet Count</th>
+          <th>Join</th>
+        </tr>
+        <tbody>
+          <tr *ngFor="let data of _data">
+            <td class="bodytd" style="text-align: left">{{data.config.gameName}}</td>
+            <td class="bodytd">{{data.config.playerCount}}/{{data.playerNeeded}}</td>
+            <td class="bodytd">{{data.config.planetCount}}</td>
+            <td class="bodytd">
+              <button class="joinbtn" value="Join" (click)="onJoin(data)">Join</button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <button class="startbtn" type="button" (click)="gotoGameConfigPage()" value="Start Game">New Game</button>&nbsp;&nbsp;
+  </div>
+</body>

@@ -1,0 +1,6 @@
+name=Rocky
+minRoughness=70
+maxRoughness=90
+popMod=.3
+minMinerals=6
+maxMinerals=9

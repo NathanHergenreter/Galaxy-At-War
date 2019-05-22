@@ -1,0 +1,11 @@
+{
+    "/api": {
+        "target": "http://cs309-vc-1.misc.iastate.edu:8080",
+        "secure": false,
+        "logLevel": "debug",
+        "pathRewrite": {
+            "^/api": ""
+        },
+        "changeOrigin": true
+    }
+}

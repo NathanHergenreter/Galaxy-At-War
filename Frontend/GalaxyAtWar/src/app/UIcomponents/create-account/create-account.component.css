@@ -1,0 +1,76 @@
+body {
+    margin: 0px;
+    min-height: 100vh;
+    width: 100%;
+    background-color: #232935;
+    color: #92D5EE;
+}
+
+h1 {
+    background-color: #232935;
+    color: #D64C4C;
+}
+
+.avatarImgFrame{
+    height: 250px;
+}
+
+.biographyField{
+    width: 400px;
+    height: 100px;
+}
+
+.signinlinkbtn {
+    margin: 5px;
+    color: #92D5EE;
+}
+
+.signinlinkbtn {
+    margin: 5px;
+    color: #92D5EE;
+}
+
+input {
+    width: 33%;
+    padding: 8px 10px;
+    margin-bottom: 8px;
+    box-sizing: border-box;
+    background-color: #5A6889;
+    color: #92D5EE;
+    border: 2px solid #92D5EE;
+    border-radius: 4px;
+    outline: none;
+}
+
+.submit-btn {
+    width: 33%;
+    font-size: 20px;
+    padding: 4px 12px;
+    box-sizing: border-box;
+    background-color: rgb(44, 53, 71);
+    color: #92D5EE;
+    border: 2px solid #92D5EE;
+    border-radius: 4px;
+}
+
+label {
+    font-size: 18px;
+    position: relative;
+    left: -12.5%;
+}
+
+.reenter {
+    font-size: 18px;
+    position: relative;
+    left: -9.5%;
+}
+.passwordValidation{
+    font-size: 18px;
+    color: #D64C4C;
+    position: relative;
+    left: -8%;
+}
+
+::placeholder {
+    color: #9EB7C1;
+}

@@ -1,0 +1,30 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<body>
+  <div>
+    <nav style="text-align:right">
+      <a class="signinlinkbtn" routerLink='/create-account' routerLinkActive='active'>Create an Account</a>
+      |
+      <a class="signinlinkbtn" routerLink='/signin' routerLinkActive='active'>Sign In</a>
+    </nav>
+    <h1 style="text-align:center">
+      Sign Up
+    </h1>
+  </div>
+  <br>
+  <div style="text-align:center">
+    <form class="username-password-Form">
+        <label>Username</label>
+        <br>
+      <input type="text" placeholder="Username" (input)="onUsernameInput($event.target.value)"><br>
+      <label>Password</label>
+      <br>
+      <input type="password" placeholder="Password" class="password-input" (input)="onPasswordInput($event.target.value)"> 
+      <br>
+      <label class="reenter">Re-Enter Password</label><br>
+        <input type="password" placeholder="Re-Enter Password" name="passwordValid" (input)="onPasswordValidation($event.target.value)"><br>
+        <label class="passwordValidation" *ngIf="!_isPasswordChecked"> * Passwords Do Not Match</label><br>
+        <br>
+      <button class="submit-btn" type="button" (click)="onSubmit($event)">Sign Up</button>
+    </form>
+  </div>
+</body>

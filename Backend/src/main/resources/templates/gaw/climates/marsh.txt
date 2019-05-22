@@ -1,0 +1,6 @@
+name=Marsh
+minRoughness=40
+maxRoughness=60
+popMod=.8
+minMinerals=0
+maxMinerals=2

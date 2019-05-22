@@ -1,0 +1,16 @@
+type=Drone Corps
+transportType=Heavy Transport
+buildTime=3
+cost=800
+manpower=0
+alloys=12
+hp=45000
+hardness=7
+attack=8
+defense=4
+boardingAttack=7
+boardingDefense=6
+infantryPower=6
+armorPower=5
+artilleryPower=5
+airPower=9

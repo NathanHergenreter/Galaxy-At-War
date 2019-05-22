@@ -1,0 +1,6 @@
+name=Ocean
+minRoughness=0
+maxRoughness=20
+popMod=.85
+minMinerals=0
+maxMinerals=2

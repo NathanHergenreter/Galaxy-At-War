@@ -1,0 +1,6 @@
+name=Temperate
+minRoughness=20
+maxRoughness=45
+popMod=1
+minMinerals=3
+maxMinerals=6

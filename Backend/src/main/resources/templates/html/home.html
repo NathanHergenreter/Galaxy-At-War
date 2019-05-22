@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <div>
+        <span th:text="${session_id}">Session ID</span>
+    </div>
+    <div>
+        <form action="/user/register" method="post">
+            <input type="text" name="name" placeholder="Username" required>
+            <input type="password" name="password" placeholder="Password" required>
+            <input type="submit" value="Register">
+        </form>
+    </div>
+    <div>
+        <form action="/user/login" method="post">
+            <input type="text" name="name" placeholder="Username" required>
+            <input type="password" name="password" placeholder="Password" required>
+            <input type="submit" value="Login">
+        </form>
+    </div>
+
+</body>
+</html>
+

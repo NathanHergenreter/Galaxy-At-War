@@ -1,0 +1,13 @@
+type=Frigate
+cargoType=Marine Brigade
+buildTime=2
+cost=500
+manpower=5
+alloys=10
+hp=20000
+size=3
+armor=4
+evasion=9
+firepower=4
+range=2
+craftDefense=9

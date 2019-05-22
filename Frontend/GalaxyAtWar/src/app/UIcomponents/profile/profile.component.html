@@ -1,0 +1,84 @@
+<body>
+    <nav>
+    <a class="lobbylinkbtn" routerLink='/game-discovery-lobby' routerLinkActive='active'>Return to Lobby</a>
+    </nav>
+    <br>
+    <h2 style="text-align: center">User Profile</h2>
+    <br>
+    <div style="text-align: left">
+        <form class="username-password-Form" method="POST">
+            <table style="width:50%">
+                <tr>
+                    <td colspan="2" style="text-align: left">
+                        <div *ngIf="_isEditProfile">
+                            <input type="file" (change)="onImageSelected($event.target.files)" accept="image/*">
+                        </div>
+                        <div *ngIf="!_isEditProfile">
+                            <img src="{{_avatarUrl}}" onerror="this.src='/assets/images/user.png'" width="100" height="100" />
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Username
+                    </td>
+                    <td>
+                        <div>
+                            {{_usernameTextField}}
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Account Type
+                    </td>
+                    <td>
+                        <div>
+                            {{_userAccountType}}
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Biography
+                    </td>
+                    <td>
+                        <div *ngIf="_isEditProfile">
+                            <textarea class="biographyField" name="biography" [(ngModel)]="_bioTextField"></textarea>
+                        </div>
+                        <div *ngIf="!_isEditProfile">
+                            {{_bioTextField}}
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Games Won
+                    </td>
+                    <td>
+                        <div>
+                            {{_gamesWon}}
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Games Played
+                    </td>
+                    <td>
+                        <div>
+                            {{_gamesPlayed}}
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" style="text-align: right">
+                        <button *ngIf="!_isEditProfile" (click)="onUpdate()">Update</button>
+                        <button *ngIf="_isEditProfile" (click)="onSubmit()">Save</button>&nbsp;
+                        <button *ngIf="_isEditProfile" (click)="onCancel()">Cancel</button>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>

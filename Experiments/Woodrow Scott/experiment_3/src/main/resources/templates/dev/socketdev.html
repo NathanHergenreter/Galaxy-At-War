@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sockets Dev</title>
+</head>
+<body>
+    <div>
+       <textarea id="text-area" style="width:100%; height:250px;"></textarea>
+    </div>
+    <div>
+        <input id="text-input" type="text">
+        <button type="button" onclick="sendMessage();">SEND</button>
+    </div>
+</body>
+</html>
+
+<script>
+    var socket = new WebSocket("ws://"+window.location.host+"/socket-message");
+
+    var textArea;
+    var textInput;
+
+    socket.onopen = function(){
+
+        textArea = document.getElementById('text-area');
+        textInput = document.getElementById('text-input');
+
+        textArea.value += "Connected\n";
+
+        console.log("WebSocket connection open....");
+
+        socket.send("Client Message from " + window.location.host);
+    }
+
+    socket.onmessage = function(message){
+        console.log("Message received: " + message.data);
+
+        textArea.value += message.data + '\n';
+    }
+
+    function sendMessage(){
+        textArea.value += "(You)" + textInput.value + '\n';
+        console.log(">> " + textInput.value)
+        socket.send(textInput.value);
+        textInput.value='';
+    }
+</script>

@@ -1,0 +1,11 @@
+type=Fleet Marine Force
+hp=160000
+hardness=6
+attack=7
+defense=7
+boardingAttack=9
+boardingDefense=9
+infantryPower=8
+armorPower=5
+artilleryPower=4
+airPower=7

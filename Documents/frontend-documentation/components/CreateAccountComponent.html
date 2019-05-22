@@ -1,0 +1,1624 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>galaxy-at-war documentation</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+	      <link rel="stylesheet" href="../styles/style.css">
+    </head>
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top visible-xs">
+            <a href="../" class="navbar-brand">galaxy-at-war documentation</a>
+            <button type="button" class="btn btn-default btn-menu ion-ios-menu" id="btn-menu"></button>
+        </div>
+
+        <div class="xs-menu menu" id="mobile-menu">
+                <div id="book-search-input" role="search"><input type="text" placeholder="Type to search"></div>            <compodoc-menu></compodoc-menu>
+        </div>
+
+        <div class="container-fluid main">
+           <div class="row main">
+               <div class="hidden-xs menu">
+                   <compodoc-menu mode="normal"></compodoc-menu>
+               </div>
+               <!-- START CONTENT -->
+               <div class="content component">
+                   <div class="content-data">
+
+
+
+
+<ol class="breadcrumb">
+  <li>Components</li>
+  <li>CreateAccountComponent</li>
+</ol>
+
+<ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#info" role="tab" id="info-tab" data-toggle="tab" data-link="info">Info</a>
+        </li>
+        <li >
+            <a href="#source" role="tab" id="source-tab" data-toggle="tab" data-link="source">Source</a>
+        </li>
+        <li >
+            <a href="#templateData" role="tab" id="templateData-tab" data-toggle="tab" data-link="template">Template</a>
+        </li>
+        <li >
+            <a href="#styleData" role="tab" id="styleData-tab" data-toggle="tab" data-link="style">Styles</a>
+        </li>
+        <li >
+            <a href="#tree" role="tab" id="tree-tab" data-toggle="tab" data-link="dom-tree">DOM Tree</a>
+        </li>
+</ul>
+
+<div class="tab-content">
+    <div class="tab-pane fade active in" id="c-info"><p class="comment">
+    <h3>File</h3>
+</p>
+<p class="comment">
+    <code>src/app/UIcomponents/create-account/create-account.component.ts</code>
+</p>
+
+
+
+    <p class="comment">
+        <h3>Implements</h3>
+    </p>
+    <p class="comment">
+                    <code><a href="https://angular.io/api/core/OnInit" target="_blank" >OnInit</a></code>
+    </p>
+
+
+<section>
+    <h3>Metadata</h3>
+    <table class="table table-sm table-hover">
+        <tbody>
+
+
+
+
+
+
+
+
+
+
+
+            <tr>
+                <td class="col-md-3">selector</td>
+                <td class="col-md-9"><code>app-create-account</code></td>
+            </tr>
+
+            <tr>
+                <td class="col-md-3">styleUrls</td>
+                <td class="col-md-9"><code>./create-account.component.css</code></td>
+            </tr>
+
+
+
+            <tr>
+                <td class="col-md-3">templateUrl</td>
+                <td class="col-md-9"><code>./create-account.component.html</code></td>
+            </tr>
+
+
+
+
+
+
+
+
+        </tbody>
+    </table>
+</section>
+
+    <section>
+    <h3 id="index">Index</h3>
+    <table class="table table-sm table-bordered index-table">
+        <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Properties</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                <a href="#_avatarToUpload">_avatarToUpload</a>
+                            </li>
+                            <li>
+                                <a href="#_avatarUrl">_avatarUrl</a>
+                            </li>
+                            <li>
+                                <a href="#_bioTextField">_bioTextField</a>
+                            </li>
+                            <li>
+                                <a href="#_isPasswordChecked">_isPasswordChecked</a>
+                            </li>
+                            <li>
+                                <a href="#_passwordCheckedTextField">_passwordCheckedTextField</a>
+                            </li>
+                            <li>
+                                <a href="#_passwordTextField">_passwordTextField</a>
+                            </li>
+                            <li>
+                                <a href="#_usernameTextField">_usernameTextField</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Methods</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                    <span class="modifier">Private</span>
+                                    <span class="modifier">Async</span>
+                                <a href="#createAccount">createAccount</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Private</span>
+                                    <span class="modifier">Async</span>
+                                <a href="#createProfile">createProfile</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Private</span>
+                                <a href="#isFormValid">isFormValid</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Private</span>
+                                    <span class="modifier">Async</span>
+                                <a href="#login">login</a>
+                            </li>
+                            <li>
+                                <a href="#ngOnInit">ngOnInit</a>
+                            </li>
+                            <li>
+                                <a href="#onBiographyFieldChange">onBiographyFieldChange</a>
+                            </li>
+                            <li>
+                                <a href="#onImageSelected">onImageSelected</a>
+                            </li>
+                            <li>
+                                <a href="#onPasswordInput">onPasswordInput</a>
+                            </li>
+                            <li>
+                                <a href="#onPasswordValidation">onPasswordValidation</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Async</span>
+                                <a href="#onSubmit">onSubmit</a>
+                            </li>
+                            <li>
+                                <a href="#onUsernameInput">onUsernameInput</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Private</span>
+                                <a href="#promptUser">promptUser</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Private</span>
+                                <a href="#updateUserSession">updateUserSession</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+
+
+
+
+        </tbody>
+    </table>
+</section>
+
+    <section>
+    <h3 id="constructor">Constructor</h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+<code>constructor(_router: <a href="https://angular.io/api/router/Router" target="_blank">Router</a>, _loginAuthenticator: <a href="../injectables/LoginAuthenticatorService.html">LoginAuthenticatorService</a>, _userSession: <a href="../injectables/UserSessionService.html">UserSessionService</a>)</code>
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="16" class="link-to-prism">src/app/UIcomponents/create-account/create-account.component.ts:16</a></div>
+                            </td>
+                        </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                            <div>
+                                    <b>Parameters :</b>
+                                    <table class="params">
+                                        <thead>
+                                            <tr>
+                                                <td>Name</td>
+                                                    <td>Type</td>
+                                                <td>Optional</td>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                                <tr>
+                                                        <td>_router</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="https://angular.io/api/router/Router" target="_blank" >Router</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>_loginAuthenticator</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="../injectables/LoginAuthenticatorService.html" target="_self" >LoginAuthenticatorService</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>_userSession</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="../injectables/UserSessionService.html" target="_self" >UserSessionService</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                        </tbody>
+                                    </table>
+                            </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+</section>
+
+
+
+
+
+    <section>
+    
+    <h3 id="methods">
+        Methods
+    </h3>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="createAccount"></a>
+                    <span class="name">
+                        <b>
+                            <span class="modifier">Private</span>
+                            <span class="modifier">Async</span>
+                            createAccount
+                        </b>
+                        <a href="#createAccount"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>createAccount()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="89"
+                            class="link-to-prism">src/app/UIcomponents/create-account/create-account.component.ts:89</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-description"><p>Returns true if attempt was a success else false</p>
+</div>
+
+                    <div class="io-description">
+                        <b>Returns : </b>    <code>{}</code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="createProfile"></a>
+                    <span class="name">
+                        <b>
+                            <span class="modifier">Private</span>
+                            <span class="modifier">Async</span>
+                            createProfile
+                        </b>
+                        <a href="#createProfile"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>createProfile()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="127"
+                            class="link-to-prism">src/app/UIcomponents/create-account/create-account.component.ts:127</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>    <code>{}</code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="isFormValid"></a>
+                    <span class="name">
+                        <b>
+                            <span class="modifier">Private</span>
+                            isFormValid
+                        </b>
+                        <a href="#isFormValid"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>isFormValid()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="150"
+                            class="link-to-prism">src/app/UIcomponents/create-account/create-account.component.ts:150</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean" target="_blank" >boolean</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="login"></a>
+                    <span class="name">
+                        <b>
+                            <span class="modifier">Private</span>
+                            <span class="modifier">Async</span>
+                            login
+                        </b>
+                        <a href="#login"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>login()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="109"
+                            class="link-to-prism">src/app/UIcomponents/create-account/create-account.component.ts:109</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>    <code>{}</code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="ngOnInit"></a>
+                    <span class="name">
+                        <b>
+                            ngOnInit
+                        </b>
+                        <a href="#ngOnInit"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>ngOnInit()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="39"
+                            class="link-to-prism">src/app/UIcomponents/create-account/create-account.component.ts:39</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="onBiographyFieldChange"></a>
+                    <span class="name">
+                        <b>
+                            onBiographyFieldChange
+                        </b>
+                        <a href="#onBiographyFieldChange"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>onBiographyFieldChange(text)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="66"
+                            class="link-to-prism">src/app/UIcomponents/create-account/create-account.component.ts:66</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>text</td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="onImageSelected"></a>
+                    <span class="name">
+                        <b>
+                            onImageSelected
+                        </b>
+                        <a href="#onImageSelected"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>onImageSelected(files)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="42"
+                            class="link-to-prism">src/app/UIcomponents/create-account/create-account.component.ts:42</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>files</td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="onPasswordInput"></a>
+                    <span class="name">
+                        <b>
+                            onPasswordInput
+                        </b>
+                        <a href="#onPasswordInput"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>onPasswordInput(passwordTextField)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="57"
+                            class="link-to-prism">src/app/UIcomponents/create-account/create-account.component.ts:57</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>passwordTextField</td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="onPasswordValidation"></a>
+                    <span class="name">
+                        <b>
+                            onPasswordValidation
+                        </b>
+                        <a href="#onPasswordValidation"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>onPasswordValidation(passwordTextField)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="61"
+                            class="link-to-prism">src/app/UIcomponents/create-account/create-account.component.ts:61</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>passwordTextField</td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="onSubmit"></a>
+                    <span class="name">
+                        <b>
+                            <span class="modifier">Async</span>
+                            onSubmit
+                        </b>
+                        <a href="#onSubmit"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>onSubmit(event)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="70"
+                            class="link-to-prism">src/app/UIcomponents/create-account/create-account.component.ts:70</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>event</td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="onUsernameInput"></a>
+                    <span class="name">
+                        <b>
+                            onUsernameInput
+                        </b>
+                        <a href="#onUsernameInput"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>onUsernameInput(usernameTextField)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="53"
+                            class="link-to-prism">src/app/UIcomponents/create-account/create-account.component.ts:53</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>usernameTextField</td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="promptUser"></a>
+                    <span class="name">
+                        <b>
+                            <span class="modifier">Private</span>
+                            promptUser
+                        </b>
+                        <a href="#promptUser"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>promptUser(message: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String" target="_blank">String</a>)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="179"
+                            class="link-to-prism">src/app/UIcomponents/create-account/create-account.component.ts:179</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-description"><p>Prompts user with a message-box and parameterized message</p>
+</div>
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>message</td>
+                                    <td>
+                                                <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String" target="_blank" >String</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="updateUserSession"></a>
+                    <span class="name">
+                        <b>
+                            <span class="modifier">Private</span>
+                            updateUserSession
+                        </b>
+                        <a href="#updateUserSession"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>updateUserSession()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="167"
+                            class="link-to-prism">src/app/UIcomponents/create-account/create-account.component.ts:167</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+    <section>
+    
+        <h3 id="inputs">
+            Properties
+        </h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="_avatarToUpload"></a>
+                        <span class="name">
+                            <b>
+                            _avatarToUpload</b>
+                            <a href="#_avatarToUpload"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="27" class="link-to-prism">src/app/UIcomponents/create-account/create-account.component.ts:27</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="_avatarUrl"></a>
+                        <span class="name">
+                            <b>
+                            _avatarUrl</b>
+                            <a href="#_avatarUrl"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="28" class="link-to-prism">src/app/UIcomponents/create-account/create-account.component.ts:28</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="_bioTextField"></a>
+                        <span class="name">
+                            <b>
+                            _bioTextField</b>
+                            <a href="#_bioTextField"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="34" class="link-to-prism">src/app/UIcomponents/create-account/create-account.component.ts:34</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="_isPasswordChecked"></a>
+                        <span class="name">
+                            <b>
+                            _isPasswordChecked</b>
+                            <a href="#_isPasswordChecked"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean" target="_blank" >boolean</a></code>
+
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="36" class="link-to-prism">src/app/UIcomponents/create-account/create-account.component.ts:36</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="_passwordCheckedTextField"></a>
+                        <span class="name">
+                            <b>
+                            _passwordCheckedTextField</b>
+                            <a href="#_passwordCheckedTextField"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="33" class="link-to-prism">src/app/UIcomponents/create-account/create-account.component.ts:33</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="_passwordTextField"></a>
+                        <span class="name">
+                            <b>
+                            _passwordTextField</b>
+                            <a href="#_passwordTextField"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="32" class="link-to-prism">src/app/UIcomponents/create-account/create-account.component.ts:32</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="_usernameTextField"></a>
+                        <span class="name">
+                            <b>
+                            _usernameTextField</b>
+                            <a href="#_usernameTextField"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="31" class="link-to-prism">src/app/UIcomponents/create-account/create-account.component.ts:31</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+</section>
+
+</div>
+
+
+    <div class="tab-pane fade  tab-source-code" id="c-source">
+        <pre class="line-numbers compodoc-sourcecode"><code class="language-typescript">import { Component, OnInit, Injectable } from &#x27;@angular/core&#x27;;
+import { __spread } from &#x27;tslib&#x27;;
+import { LoginAuthenticatorService } from &#x27;src/app/services/login-authenticator.service&#x27;;
+import { UserAccountTypes, ServerMessages } from &#x27;src/app/interfaces/EnumTypes&#x27;;
+import { Router } from &#x27;@angular/router&#x27;;
+import { ProfileUpdaterService } from &#x27;src/app/services/profile-updater.service&#x27;;
+import { UserSessionService } from &#x27;src/app/services/user-session.service&#x27;;
+
+@Component({
+  selector: &#x27;app-create-account&#x27;,
+  templateUrl: &#x27;./create-account.component.html&#x27;,
+  styleUrls: [&#x27;./create-account.component.css&#x27;],
+  providers: []
+})
+
+export class CreateAccountComponent implements OnInit {
+
+  constructor(
+    private _router: Router, 
+    private _loginAuthenticator: LoginAuthenticatorService,
+    private _userSession: UserSessionService) {
+    this._isPasswordChecked &#x3D; true;
+    this._bioTextField &#x3D; &#x27;Biography:&#x27;;
+   }
+
+  //fields for avatar/picture
+  _avatarToUpload:any;
+  _avatarUrl:string;
+
+  //Text fields
+  _usernameTextField:string;
+  _passwordTextField:string;
+  _passwordCheckedTextField:string;
+  _bioTextField:string;
+
+  _isPasswordChecked:boolean;
+
+  
+  ngOnInit() {
+  }
+
+  onImageSelected(files){
+    this._avatarToUpload &#x3D; files[0];//should only select 1 image else select first image
+
+    //show image preview
+    var reader &#x3D; new FileReader();
+    reader.onload &#x3D; (event:any)&#x3D;&gt;{
+      this._avatarUrl &#x3D; event.target.result;
+    }
+    reader.readAsDataURL(this._avatarToUpload)
+  }
+  
+  onUsernameInput(usernameTextField){
+    this._usernameTextField &#x3D; usernameTextField;
+  }
+
+  onPasswordInput(passwordTextField){
+    this._passwordTextField &#x3D; passwordTextField;
+  }
+
+  onPasswordValidation(passwordTextField){
+    this._passwordCheckedTextField &#x3D; passwordTextField;
+    this._isPasswordChecked &#x3D; this._passwordCheckedTextField &#x3D;&#x3D; this._passwordTextField;
+  }
+
+  onBiographyFieldChange(text){
+    this._bioTextField &#x3D; text;
+  }
+
+  async onSubmit(event){
+    if(!this.isFormValid()) return;
+
+    let result &#x3D; await this.createAccount(); 
+    if(!result) return;
+
+    result &#x3D; await this.login();
+    if(!result) return;
+    
+    result &#x3D; await this.createProfile();
+    if(!result) return;
+
+    this.updateUserSession();
+    this._router.navigate([&#x27;game-discovery-lobby&#x27;]);
+  }
+
+  /**
+   * Returns true if attempt was a success else false
+   */
+  private async createAccount(){
+    let responseMsg &#x3D; await this._loginAuthenticator.createAccount(
+      {
+        name: this._usernameTextField,
+        password: this._passwordTextField
+      }
+    );
+
+    switch(responseMsg){
+      case (ServerMessages.success):
+        return true;
+      case(ServerMessages.usernameTaken):
+        this.promptUser(&#x27;The given username is already taken.&#x27;);
+        return false;
+      default:
+        this.promptUser(&#x27;An error occurred attempting to create your account.&#x27;);
+        break;
+    }
+    return false;
+  }
+  private async login(){
+    let responseMsg &#x3D; await this._loginAuthenticator.login(
+      {
+        name: this._usernameTextField,
+        password: this._passwordTextField
+      }
+    );
+
+    switch(responseMsg){
+      case (ServerMessages.success):
+        this.promptUser(&#x27;Welcome to Galaxy At War, &#x27; + this._usernameTextField + &#x27;!&#x27;);
+        return true;
+      default:
+        this.promptUser(&#x27;An error occurred logging into your account.&#x27;);
+        break;
+    }
+    return false;
+  }
+  private async createProfile(){
+    let responseMsg &#x3D; await this._userSession.updateProfile(
+      {
+        username: this._usernameTextField,
+        accountType: UserAccountTypes.general,
+        avatar: this._avatarToUpload,
+        biography: this._bioTextField,
+        gamesWon: 0,
+        gamesPlayed: 0
+      }
+    );
+
+    switch(responseMsg){
+      case (ServerMessages.success):
+        return true;
+      default:
+        this.promptUser(&#x27;Unable to create user profile.&#x27;);
+        break;
+    }
+    return false;
+  }
+
+
+  private isFormValid():boolean{
+    if(this._usernameTextField &#x3D;&#x3D; null || this._usernameTextField &#x3D;&#x3D; &#x27;&#x27;){
+      this.promptUser(&#x27;please enter a username&#x27;);
+      return false;
+    }
+    if(this._passwordTextField &#x3D;&#x3D; null || this._passwordTextField &#x3D;&#x3D; &#x27;&#x27;){
+      this.promptUser(&#x27;please enter a password&#x27;);
+      return false;
+    }
+    if(!this._passwordCheckedTextField){
+      this.promptUser(&#x27;password fields do not match&#x27;);
+      return false;
+    }
+
+    return true;
+  }
+
+  private updateUserSession(){
+    this._userSession.setAvatarUrl(this._avatarUrl);
+    this._userSession.setBiography(this._bioTextField);
+    this._userSession.setPassword(this._passwordTextField);
+    this._userSession.setUsername(this._usernameTextField);
+    this._userSession._isLoggedIn &#x3D; true;
+  }
+
+  /**
+   * Prompts user with a message-box and parameterized message
+   * @param message 
+   */
+  private promptUser(message:String){
+    //TODO
+  }
+}
+</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-templateData">
+        <pre class="line-numbers"><code class="language-html">&lt;!--The content below is only a placeholder and can be replaced.--&gt;
+&lt;body&gt;
+  &lt;div&gt;
+    &lt;nav style&#x3D;&quot;text-align:right&quot;&gt;
+      &lt;a class&#x3D;&quot;signinlinkbtn&quot; routerLink&#x3D;&#x27;/create-account&#x27; routerLinkActive&#x3D;&#x27;active&#x27;&gt;Create an Account&lt;/a&gt;
+      |
+      &lt;a class&#x3D;&quot;signinlinkbtn&quot; routerLink&#x3D;&#x27;/signin&#x27; routerLinkActive&#x3D;&#x27;active&#x27;&gt;Sign In&lt;/a&gt;
+    &lt;/nav&gt;
+    &lt;h1 style&#x3D;&quot;text-align:center&quot;&gt;
+      Sign Up
+    &lt;/h1&gt;
+  &lt;/div&gt;
+  &lt;br&gt;
+  &lt;div style&#x3D;&quot;text-align:center&quot;&gt;
+    &lt;form class&#x3D;&quot;username-password-Form&quot;&gt;
+        &lt;label&gt;Username&lt;/label&gt;
+        &lt;br&gt;
+      &lt;input type&#x3D;&quot;text&quot; placeholder&#x3D;&quot;Username&quot; (input)&#x3D;&quot;onUsernameInput($event.target.value)&quot;&gt;&lt;br&gt;
+      &lt;label&gt;Password&lt;/label&gt;
+      &lt;br&gt;
+      &lt;input type&#x3D;&quot;password&quot; placeholder&#x3D;&quot;Password&quot; class&#x3D;&quot;password-input&quot; (input)&#x3D;&quot;onPasswordInput($event.target.value)&quot;&gt; 
+      &lt;br&gt;
+      &lt;label class&#x3D;&quot;reenter&quot;&gt;Re-Enter Password&lt;/label&gt;&lt;br&gt;
+        &lt;input type&#x3D;&quot;password&quot; placeholder&#x3D;&quot;Re-Enter Password&quot; name&#x3D;&quot;passwordValid&quot; (input)&#x3D;&quot;onPasswordValidation($event.target.value)&quot;&gt;&lt;br&gt;
+        &lt;label class&#x3D;&quot;passwordValidation&quot; *ngIf&#x3D;&quot;!_isPasswordChecked&quot;&gt; * Passwords Do Not Match&lt;/label&gt;&lt;br&gt;
+        &lt;br&gt;
+      &lt;button class&#x3D;&quot;submit-btn&quot; type&#x3D;&quot;button&quot; (click)&#x3D;&quot;onSubmit($event)&quot;&gt;Sign Up&lt;/button&gt;
+    &lt;/form&gt;
+  &lt;/div&gt;
+&lt;/body&gt;
+</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-styleData">
+                <p class="comment">
+                    <code>./create-account.component.css</code>
+                </p>
+                <pre class="line-numbers"><code class="language-scss">body {
+    margin: 0px;
+    min-height: 100vh;
+    width: 100%;
+    background-color: #232935;
+    color: #92D5EE;
+}
+
+h1 {
+    background-color: #232935;
+    color: #D64C4C;
+}
+
+.avatarImgFrame{
+    height: 250px;
+}
+
+.biographyField{
+    width: 400px;
+    height: 100px;
+}
+
+.signinlinkbtn {
+    margin: 5px;
+    color: #92D5EE;
+}
+
+.signinlinkbtn {
+    margin: 5px;
+    color: #92D5EE;
+}
+
+input {
+    width: 33%;
+    padding: 8px 10px;
+    margin-bottom: 8px;
+    box-sizing: border-box;
+    background-color: #5A6889;
+    color: #92D5EE;
+    border: 2px solid #92D5EE;
+    border-radius: 4px;
+    outline: none;
+}
+
+.submit-btn {
+    width: 33%;
+    font-size: 20px;
+    padding: 4px 12px;
+    box-sizing: border-box;
+    background-color: rgb(44, 53, 71);
+    color: #92D5EE;
+    border: 2px solid #92D5EE;
+    border-radius: 4px;
+}
+
+label {
+    font-size: 18px;
+    position: relative;
+    left: -12.5%;
+}
+
+.reenter {
+    font-size: 18px;
+    position: relative;
+    left: -9.5%;
+}
+.passwordValidation{
+    font-size: 18px;
+    color: #D64C4C;
+    position: relative;
+    left: -8%;
+}
+
+::placeholder {
+    color: #9EB7C1;
+}</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-tree">
+        <div id="tree-container"></div>
+        <div class="tree-legend">
+            <div class="title">
+                <b>Legend</b>
+            </div>
+            <div>
+                <div class="color htmlelement"></div><span>Html element</span>
+            </div>
+            <div>
+                <div class="color component"></div><span>Component</span>
+            </div>
+            <div>
+                <div class="color directive"></div><span>Html element with directive</span>
+            </div>
+        </div>
+    </div>
+
+    
+</div>
+
+<script src="../js/libs/vis.min.js"></script>
+<script src="../js/libs/htmlparser.js"></script>
+<script src="../js/libs/deep-iterator.js"></script>
+<script>
+        var COMPONENT_TEMPLATE = '<div><!--The content below is only a placeholder and can be replaced.--><body>  <div>    <nav style="text-align:right">      <a class="signinlinkbtn" routerLink=\'/create-account\' routerLinkActive=\'active\'>Create an Account</a>      |      <a class="signinlinkbtn" routerLink=\'/signin\' routerLinkActive=\'active\'>Sign In</a>    </nav>    <h1 style="text-align:center">      Sign Up    </h1>  </div>  <br>  <div style="text-align:center">    <form class="username-password-Form">        <label>Username</label>        <br>      <input type="text" placeholder="Username" (input)="onUsernameInput($event.target.value)"><br>      <label>Password</label>      <br>      <input type="password" placeholder="Password" class="password-input" (input)="onPasswordInput($event.target.value)">       <br>      <label class="reenter">Re-Enter Password</label><br>        <input type="password" placeholder="Re-Enter Password" name="passwordValid" (input)="onPasswordValidation($event.target.value)"><br>        <label class="passwordValidation" *ngIf="!_isPasswordChecked"> * Passwords Do Not Match</label><br>        <br>      <button class="submit-btn" type="button" (click)="onSubmit($event)">Sign Up</button>    </form>  </div></body></div>'
+    var COMPONENTS = [{'name': 'AppComponent', 'selector': 'app-root'},{'name': 'ChatComponent', 'selector': 'app-chat'},{'name': 'CreateAccountComponent', 'selector': 'app-create-account'},{'name': 'GameConfigLobbyComponent', 'selector': 'app-game-config-lobby'},{'name': 'GameDashboardComponent', 'selector': 'app-game-dashboard'},{'name': 'gameDiscoveryLobbyComponent', 'selector': 'app-game-discovery-lobby'},{'name': 'GamePregameComponent', 'selector': 'app-game-pregame'},{'name': 'ProfileComponent', 'selector': 'app-profile'},{'name': 'SigninComponent', 'selector': 'app-signin'},{'name': 'SocketsComponent', 'selector': 'app-sockets'}];
+    var DIRECTIVES = [];
+    var ACTUAL_COMPONENT = {'name': 'CreateAccountComponent'};
+</script>
+<script src="../js/tree.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                   </div><div class="search-results">
+    <div class="has-results">
+        <h1 class="search-results-title"><span class='search-results-count'></span> result-matching "<span class='search-query'></span>"</h1>
+        <ul class="search-results-list"></ul>
+    </div>
+    <div class="no-results">
+        <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+    </div>
+</div>
+</div>
+               <!-- END CONTENT -->
+           </div>
+       </div>
+
+       <script>
+            var COMPODOC_CURRENT_PAGE_DEPTH = 1;
+            var COMPODOC_CURRENT_PAGE_CONTEXT = 'component';
+            var COMPODOC_CURRENT_PAGE_URL = 'CreateAccountComponent.html';
+       </script>
+
+       <script src="../js/libs/custom-elements.min.js"></script>
+       <script src="../js/libs/lit-html.js"></script>
+       <!-- Required to polyfill modern browsers as code is ES5 for IE... -->
+       <script src="../js/libs/custom-elements-es5-adapter.js" charset="utf-8" defer></script>
+       <script src="../js/menu-wc.js" defer></script>
+
+       <script src="../js/libs/bootstrap-native.js"></script>
+
+       <script src="../js/libs/es6-shim.min.js"></script>
+       <script src="../js/libs/EventDispatcher.js"></script>
+       <script src="../js/libs/promise.min.js"></script>
+       <script src="../js/libs/zepto.min.js"></script>
+
+       <script src="../js/compodoc.js"></script>
+
+       <script src="../js/tabs.js"></script>
+       <script src="../js/menu.js"></script>
+       <script src="../js/libs/clipboard.min.js"></script>
+       <script src="../js/libs/prism.js"></script>
+       <script src="../js/sourceCode.js"></script>
+          <script src="../js/search/search.js"></script>
+          <script src="../js/search/lunr.min.js"></script>
+          <script src="../js/search/search-lunr.js"></script>
+          <script src="../js/search/search_index.js"></script>
+       <script src="../js/lazy-load-graphs.js"></script>
+
+
+    </body>
+</html>

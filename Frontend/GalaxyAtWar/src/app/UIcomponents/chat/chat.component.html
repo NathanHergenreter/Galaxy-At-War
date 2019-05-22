@@ -1,0 +1,22 @@
+<div class="mainDiv">
+  <div class="users">
+    Send to :
+    <select>
+        <option value="public" (click)="selectPublic()">
+          <b>Public</b>
+        </option>
+        <option *ngFor="let user of users" (change)="selectUser($event.target.value)">
+          <b>{{user.username}}</b>
+        </option>
+    </select>
+  </div>
+  <div class="chat-container">
+    <div class="messages-container">
+      <div *ngFor="let message of messages" class="message">
+        <u>({{message.date | date}}) {{message.sender.name}}: </u> <b>{{message.message}}</b>
+      </div>
+    </div>
+    <textarea class="messageEntry" name="message" [(ngModel)]="message" cols="48" rows="1"></textarea>
+  </div>
+  <button class="btn btn-outline-secondary" style="text-align: left" (click)="sendMessage()">Send</button>
+</div>

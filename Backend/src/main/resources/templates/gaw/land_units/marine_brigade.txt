@@ -1,0 +1,11 @@
+type=Marine Brigade
+hp=3200
+hardness=2
+attack=6
+defense=6
+boardingAttack=8
+boardingDefense=8
+infantryPower=7
+armorPower=2
+artilleryPower=2
+airPower=4

@@ -1,0 +1,49 @@
+<body>
+    <h1>
+        {{_gameConfig.gameName}}
+    </h1>
+    <h2 class="hlabel players">
+        Players
+    </h2>
+    <h2 class="hlabel players">
+        Game Settings
+    </h2>
+    <div class="box players">
+        <div class="row" *ngFor="let player of _players">
+            <b class="colorBox" [ngStyle]="{'background-color': player.color}"></b>
+            {{player.name}}
+        </div>
+        <div class="row">
+            <b class="rowTitle">Ready:</b> 
+            {{curNumPlayers}}/{{playersNeeded}}
+        </div>
+    </div>
+    <div class="box config">
+        <div class="row">
+            <b class="rowTitle">Player Count:</b>
+            {{playersNeeded}}
+        </div>
+        <div class="row">
+            <b class="rowTitle">Planet Count:</b> 
+            {{planetCount}}
+        </div>
+        <div class="row">
+            <b class="rowTitle">Starting Money:</b>
+            {{_gameConfig.startingMoney}}
+        </div>
+        <div class="row">
+            <b class="rowTitle"> Starting Points:</b>
+            {{_gameConfig.startPoint}}
+        </div>
+        <div class="row">
+            <b>Player Color:</b> 
+            <input class="colorInput" type="color" value="{{selectedColor}}" (input)="selectColor($event.target.value)">
+        </div>
+    </div>
+    <button class="decision" type="button" (click)="onExit()" value="Exit">
+        Exit
+    </button>
+    <button class="decision" type="button" (click)="onReady()" value="Ready">
+            Ready
+    </button>
+</body>

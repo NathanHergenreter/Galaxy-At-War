@@ -1,0 +1,29 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "Launch Chrome against localhost",
+            "url": "http://localhost:4200/signin",
+            //"url": "http://cs309-vc-1.misc.iastate.edu:4200/signin",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "name": "Firefox debug",
+            "type": "firefox",
+            "request": "launch",
+            "reAttach": true,
+            "url": "http://localhost:4200/signin",
+            "pathMappings": [{
+                "url": "http://cs309-vc-1.misc.iastate.edu:4200/signin"
+            }]
+            //"file": "http://cs309-vc-1.misc.iastate.edu:4200/signin",
+            //"${workspaceFolder}/index.html"
+        }
+    ]
+}

@@ -1,0 +1,169 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>galaxy-at-war documentation</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+	      <link rel="stylesheet" href="../styles/style.css">
+    </head>
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top visible-xs">
+            <a href="../" class="navbar-brand">galaxy-at-war documentation</a>
+            <button type="button" class="btn btn-default btn-menu ion-ios-menu" id="btn-menu"></button>
+        </div>
+
+        <div class="xs-menu menu" id="mobile-menu">
+                <div id="book-search-input" role="search"><input type="text" placeholder="Type to search"></div>            <compodoc-menu></compodoc-menu>
+        </div>
+
+        <div class="container-fluid main">
+           <div class="row main">
+               <div class="hidden-xs menu">
+                   <compodoc-menu mode="normal"></compodoc-menu>
+               </div>
+               <!-- START CONTENT -->
+               <div class="content module">
+                   <div class="content-data">
+
+
+
+<ol class="breadcrumb">
+    <li>Modules</li>
+    <li>AppRoutingModule</li>
+</ol>
+
+
+<ul class="nav nav-tabs" role="tablist">
+    <li  class="active" >
+        <a href="#info" role="tab" id="info-tab" data-toggle="tab" data-link="info">Info</a>
+    </li>
+    <li >
+        <a href="#source" role="tab" id="source-tab" data-toggle="tab" data-link="source">Source</a>
+    </li>
+</ul>
+
+<div class="tab-content">
+    <div class="tab-pane fade active in" id="c-info">
+
+        <p class="comment">
+            <h3>File</h3>
+        </p>
+        <p class="comment">
+            <code>src/app/app-routing.module.ts</code>
+        </p>
+
+
+
+
+        <div class="container-fluid module">
+            <div class="row">
+            </div>
+        </div>
+
+
+    </div>
+
+
+    <div class="tab-pane fade  tab-source-code" id="c-source">
+        <pre class="line-numbers compodoc-sourcecode"><code class="language-typescript">import { NgModule } from &#x27;@angular/core&#x27;;
+import { Routes, RouterModule } from &#x27;@angular/router&#x27;;
+import { SigninComponent } from &#x27;./UIcomponents/signin/signin.component&#x27;;
+import { CreateAccountComponent } from &#x27;./UIcomponents/create-account/create-account.component&#x27;;
+import { gameDiscoveryLobbyComponent } from &#x27;./UIcomponents/game-discovery-lobby/game-discovery-lobby.component&#x27;;
+import { GameConfigLobbyComponent } from &#x27;./UIcomponents/game-config-lobby/game-config-lobby.component&#x27;;
+import { ProfileComponent } from &#x27;./UIcomponents/profile/profile.component&#x27;;
+import { SocketsComponent } from &#x27;./UIcomponents/sockets/sockets.component&#x27;;
+import { GameDashboardComponent } from &#x27;./UIcomponents/game-dashboard/game-dashboard.component&#x27;;
+import { ChatComponent } from &#x27;./UIcomponents/chat/chat.component&#x27;;
+import { GamePregameComponent } from &#x27;./UIcomponents/game-pregame/game-pregame.component&#x27;;
+
+const routes: Routes &#x3D; [
+  {path: &#x27;signin&#x27;, component: SigninComponent},
+  {path: &#x27;create-account&#x27;, component: CreateAccountComponent},
+  {path: &#x27;game-discovery-lobby&#x27;, component: gameDiscoveryLobbyComponent},
+  {path: &#x27;game-config-lobby&#x27;, component: GameConfigLobbyComponent},
+  {path: &#x27;game-dashboard&#x27;, component: GameDashboardComponent},
+  {path: &#x27;profile&#x27;, component: ProfileComponent},
+  {path: &#x27;socket&#x27;, component: SocketsComponent},
+  {path: &#x27;game-pregame&#x27;, component: GamePregameComponent},
+  { path: &#x27;&#x27;,   redirectTo: &#x27;/signin&#x27;, pathMatch: &#x27;full&#x27; }
+];
+
+@NgModule({
+  imports: [RouterModule.forRoot(routes)],
+  exports: [RouterModule]
+})
+export class AppRoutingModule { }
+
+export const routingComponents &#x3D; [SigninComponent, CreateAccountComponent,gameDiscoveryLobbyComponent, ProfileComponent,GameConfigLobbyComponent, SocketsComponent, GameDashboardComponent, GamePregameComponent];
+</code></pre>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                   </div><div class="search-results">
+    <div class="has-results">
+        <h1 class="search-results-title"><span class='search-results-count'></span> result-matching "<span class='search-query'></span>"</h1>
+        <ul class="search-results-list"></ul>
+    </div>
+    <div class="no-results">
+        <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+    </div>
+</div>
+</div>
+               <!-- END CONTENT -->
+           </div>
+       </div>
+
+       <script>
+            var COMPODOC_CURRENT_PAGE_DEPTH = 1;
+            var COMPODOC_CURRENT_PAGE_CONTEXT = 'module';
+            var COMPODOC_CURRENT_PAGE_URL = 'AppRoutingModule.html';
+       </script>
+
+       <script src="../js/libs/custom-elements.min.js"></script>
+       <script src="../js/libs/lit-html.js"></script>
+       <!-- Required to polyfill modern browsers as code is ES5 for IE... -->
+       <script src="../js/libs/custom-elements-es5-adapter.js" charset="utf-8" defer></script>
+       <script src="../js/menu-wc.js" defer></script>
+
+       <script src="../js/libs/bootstrap-native.js"></script>
+
+       <script src="../js/libs/es6-shim.min.js"></script>
+       <script src="../js/libs/EventDispatcher.js"></script>
+       <script src="../js/libs/promise.min.js"></script>
+       <script src="../js/libs/zepto.min.js"></script>
+
+       <script src="../js/compodoc.js"></script>
+
+       <script src="../js/tabs.js"></script>
+       <script src="../js/menu.js"></script>
+       <script src="../js/libs/clipboard.min.js"></script>
+       <script src="../js/libs/prism.js"></script>
+       <script src="../js/sourceCode.js"></script>
+          <script src="../js/search/search.js"></script>
+          <script src="../js/search/lunr.min.js"></script>
+          <script src="../js/search/search-lunr.js"></script>
+          <script src="../js/search/search_index.js"></script>
+       <script src="../js/lazy-load-graphs.js"></script>
+
+
+    </body>
+</html>

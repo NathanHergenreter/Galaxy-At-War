@@ -1,0 +1,8 @@
+type=Heavy Transport
+hp=40000
+size=6
+armor=5
+evasion=3
+firepower=3
+range=2
+craftDefense=4

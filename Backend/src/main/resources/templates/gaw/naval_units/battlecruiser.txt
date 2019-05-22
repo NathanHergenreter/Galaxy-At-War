@@ -1,0 +1,15 @@
+type=Battlecruiser
+cargoType=Marine Corps
+buildTime=10
+cost=2600
+manpower=12
+alloys=25
+hp=60000
+size=7
+armor=8
+evasion=2
+firepower=9
+range=5
+craftHP=7500
+craftPower=6
+craftDefense=6

@@ -1,0 +1,6 @@
+name=Desert
+minRoughness=10
+maxRoughness=25
+popMod=.5
+minMinerals=4
+maxMinerals=9

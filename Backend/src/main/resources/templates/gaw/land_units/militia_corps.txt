@@ -1,0 +1,16 @@
+type=Militia Corps
+transportType=Light Transport
+buildTime=1
+cost=150
+manpower=10
+alloys=0
+hp=25000
+hardness=3
+attack=4
+defense=5
+boardingAttack=5
+boardingDefense=6
+infantryPower=6
+armorPower=2
+artilleryPower=3
+airPower=1

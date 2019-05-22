@@ -1,0 +1,1247 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>galaxy-at-war documentation</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+	      <link rel="stylesheet" href="../styles/style.css">
+    </head>
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top visible-xs">
+            <a href="../" class="navbar-brand">galaxy-at-war documentation</a>
+            <button type="button" class="btn btn-default btn-menu ion-ios-menu" id="btn-menu"></button>
+        </div>
+
+        <div class="xs-menu menu" id="mobile-menu">
+                <div id="book-search-input" role="search"><input type="text" placeholder="Type to search"></div>            <compodoc-menu></compodoc-menu>
+        </div>
+
+        <div class="container-fluid main">
+           <div class="row main">
+               <div class="hidden-xs menu">
+                   <compodoc-menu mode="normal"></compodoc-menu>
+               </div>
+               <!-- START CONTENT -->
+               <div class="content component">
+                   <div class="content-data">
+
+
+
+
+<ol class="breadcrumb">
+  <li>Components</li>
+  <li>ProfileComponent</li>
+</ol>
+
+<ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#info" role="tab" id="info-tab" data-toggle="tab" data-link="info">Info</a>
+        </li>
+        <li >
+            <a href="#source" role="tab" id="source-tab" data-toggle="tab" data-link="source">Source</a>
+        </li>
+        <li >
+            <a href="#templateData" role="tab" id="templateData-tab" data-toggle="tab" data-link="template">Template</a>
+        </li>
+        <li >
+            <a href="#styleData" role="tab" id="styleData-tab" data-toggle="tab" data-link="style">Styles</a>
+        </li>
+        <li >
+            <a href="#tree" role="tab" id="tree-tab" data-toggle="tab" data-link="dom-tree">DOM Tree</a>
+        </li>
+</ul>
+
+<div class="tab-content">
+    <div class="tab-pane fade active in" id="c-info"><p class="comment">
+    <h3>File</h3>
+</p>
+<p class="comment">
+    <code>src/app/UIcomponents/profile/profile.component.ts</code>
+</p>
+
+
+
+    <p class="comment">
+        <h3>Implements</h3>
+    </p>
+    <p class="comment">
+                    <code><a href="https://angular.io/api/core/OnInit" target="_blank" >OnInit</a></code>
+    </p>
+
+
+<section>
+    <h3>Metadata</h3>
+    <table class="table table-sm table-hover">
+        <tbody>
+
+
+
+
+
+
+
+
+
+
+
+            <tr>
+                <td class="col-md-3">selector</td>
+                <td class="col-md-9"><code>app-profile</code></td>
+            </tr>
+
+            <tr>
+                <td class="col-md-3">styleUrls</td>
+                <td class="col-md-9"><code>./profile.component.css</code></td>
+            </tr>
+
+
+
+            <tr>
+                <td class="col-md-3">templateUrl</td>
+                <td class="col-md-9"><code>./profile.component.html</code></td>
+            </tr>
+
+
+
+
+
+
+
+
+        </tbody>
+    </table>
+</section>
+
+    <section>
+    <h3 id="index">Index</h3>
+    <table class="table table-sm table-bordered index-table">
+        <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Properties</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                <a href="#_accessToken">_accessToken</a>
+                            </li>
+                            <li>
+                                <a href="#_avatarToUpload">_avatarToUpload</a>
+                            </li>
+                            <li>
+                                <a href="#_avatarUrl">_avatarUrl</a>
+                            </li>
+                            <li>
+                                <a href="#_bioTextField">_bioTextField</a>
+                            </li>
+                            <li>
+                                <a href="#_gamesPlayed">_gamesPlayed</a>
+                            </li>
+                            <li>
+                                <a href="#_gamesWon">_gamesWon</a>
+                            </li>
+                            <li>
+                                <a href="#_isEditProfile">_isEditProfile</a>
+                            </li>
+                            <li>
+                                <a href="#_oldUsername">_oldUsername</a>
+                            </li>
+                            <li>
+                                <a href="#_userAccountType">_userAccountType</a>
+                            </li>
+                            <li>
+                                <a href="#_usernameTextField">_usernameTextField</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Methods</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                <a href="#isFormValid">isFormValid</a>
+                            </li>
+                            <li>
+                                <a href="#ngOnInit">ngOnInit</a>
+                            </li>
+                            <li>
+                                <a href="#onCancel">onCancel</a>
+                            </li>
+                            <li>
+                                <a href="#onImageSelected">onImageSelected</a>
+                            </li>
+                            <li>
+                                <a href="#onSubmit">onSubmit</a>
+                            </li>
+                            <li>
+                                <a href="#onUpdate">onUpdate</a>
+                            </li>
+                            <li>
+                                <a href="#promptUser">promptUser</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+
+
+
+
+        </tbody>
+    </table>
+</section>
+
+    <section>
+    <h3 id="constructor">Constructor</h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+<code>constructor(_activatedRoute: <a href="https://angular.io/api/router/ActivatedRoute" target="_blank">ActivatedRoute</a>, _userSession: <a href="../injectables/UserSessionService.html">UserSessionService</a>, _router: <a href="https://angular.io/api/router/Router" target="_blank">Router</a>)</code>
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="14" class="link-to-prism">src/app/UIcomponents/profile/profile.component.ts:14</a></div>
+                            </td>
+                        </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                            <div>
+                                    <b>Parameters :</b>
+                                    <table class="params">
+                                        <thead>
+                                            <tr>
+                                                <td>Name</td>
+                                                    <td>Type</td>
+                                                <td>Optional</td>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                                <tr>
+                                                        <td>_activatedRoute</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="https://angular.io/api/router/ActivatedRoute" target="_blank" >ActivatedRoute</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>_userSession</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="../injectables/UserSessionService.html" target="_self" >UserSessionService</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>_router</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="https://angular.io/api/router/Router" target="_blank" >Router</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                        </tbody>
+                                    </table>
+                            </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+</section>
+
+
+
+
+
+    <section>
+    
+    <h3 id="methods">
+        Methods
+    </h3>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="isFormValid"></a>
+                    <span class="name">
+                        <b>
+                            isFormValid
+                        </b>
+                        <a href="#isFormValid"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>isFormValid()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="84"
+                            class="link-to-prism">src/app/UIcomponents/profile/profile.component.ts:84</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean" target="_blank" >boolean</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="ngOnInit"></a>
+                    <span class="name">
+                        <b>
+                            ngOnInit
+                        </b>
+                        <a href="#ngOnInit"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>ngOnInit()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="46"
+                            class="link-to-prism">src/app/UIcomponents/profile/profile.component.ts:46</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="onCancel"></a>
+                    <span class="name">
+                        <b>
+                            onCancel
+                        </b>
+                        <a href="#onCancel"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>onCancel()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="56"
+                            class="link-to-prism">src/app/UIcomponents/profile/profile.component.ts:56</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="onImageSelected"></a>
+                    <span class="name">
+                        <b>
+                            onImageSelected
+                        </b>
+                        <a href="#onImageSelected"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>onImageSelected(files)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="75"
+                            class="link-to-prism">src/app/UIcomponents/profile/profile.component.ts:75</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>files</td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="onSubmit"></a>
+                    <span class="name">
+                        <b>
+                            onSubmit
+                        </b>
+                        <a href="#onSubmit"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>onSubmit()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="60"
+                            class="link-to-prism">src/app/UIcomponents/profile/profile.component.ts:60</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="onUpdate"></a>
+                    <span class="name">
+                        <b>
+                            onUpdate
+                        </b>
+                        <a href="#onUpdate"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>onUpdate()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="52"
+                            class="link-to-prism">src/app/UIcomponents/profile/profile.component.ts:52</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="promptUser"></a>
+                    <span class="name">
+                        <b>
+                            promptUser
+                        </b>
+                        <a href="#promptUser"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>promptUser(message: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String" target="_blank">String</a>)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="92"
+                            class="link-to-prism">src/app/UIcomponents/profile/profile.component.ts:92</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>message</td>
+                                    <td>
+                                                <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String" target="_blank" >String</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+    <section>
+    
+        <h3 id="inputs">
+            Properties
+        </h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="_accessToken"></a>
+                        <span class="name">
+                            <b>
+                            _accessToken</b>
+                            <a href="#_accessToken"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String" target="_blank" >String</a></code>
+
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="43" class="link-to-prism">src/app/UIcomponents/profile/profile.component.ts:43</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="_avatarToUpload"></a>
+                        <span class="name">
+                            <b>
+                            _avatarToUpload</b>
+                            <a href="#_avatarToUpload"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="31" class="link-to-prism">src/app/UIcomponents/profile/profile.component.ts:31</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="_avatarUrl"></a>
+                        <span class="name">
+                            <b>
+                            _avatarUrl</b>
+                            <a href="#_avatarUrl"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="32" class="link-to-prism">src/app/UIcomponents/profile/profile.component.ts:32</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="_bioTextField"></a>
+                        <span class="name">
+                            <b>
+                            _bioTextField</b>
+                            <a href="#_bioTextField"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="36" class="link-to-prism">src/app/UIcomponents/profile/profile.component.ts:36</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="_gamesPlayed"></a>
+                        <span class="name">
+                            <b>
+                            _gamesPlayed</b>
+                            <a href="#_gamesPlayed"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="39" class="link-to-prism">src/app/UIcomponents/profile/profile.component.ts:39</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="_gamesWon"></a>
+                        <span class="name">
+                            <b>
+                            _gamesWon</b>
+                            <a href="#_gamesWon"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="38" class="link-to-prism">src/app/UIcomponents/profile/profile.component.ts:38</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="_isEditProfile"></a>
+                        <span class="name">
+                            <b>
+                            _isEditProfile</b>
+                            <a href="#_isEditProfile"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean" target="_blank" >boolean</a></code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>false</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="44" class="link-to-prism">src/app/UIcomponents/profile/profile.component.ts:44</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="_oldUsername"></a>
+                        <span class="name">
+                            <b>
+                            _oldUsername</b>
+                            <a href="#_oldUsername"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="42" class="link-to-prism">src/app/UIcomponents/profile/profile.component.ts:42</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="_userAccountType"></a>
+                        <span class="name">
+                            <b>
+                            _userAccountType</b>
+                            <a href="#_userAccountType"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="../classes/User.html" target="_self" >UserAccountTypes</a></code>
+
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="37" class="link-to-prism">src/app/UIcomponents/profile/profile.component.ts:37</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="_usernameTextField"></a>
+                        <span class="name">
+                            <b>
+                            _usernameTextField</b>
+                            <a href="#_usernameTextField"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="35" class="link-to-prism">src/app/UIcomponents/profile/profile.component.ts:35</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+</section>
+
+</div>
+
+
+    <div class="tab-pane fade  tab-source-code" id="c-source">
+        <pre class="line-numbers compodoc-sourcecode"><code class="language-typescript">import { Component, OnInit } from &#x27;@angular/core&#x27;;
+import { Router, ActivatedRoute, Params } from &#x27;@angular/router&#x27;;
+import { HttpClient } from &#x27;@angular/common/http&#x27;;
+import { UserAccountTypes } from &#x27;src/app/interfaces/EnumTypes&#x27;;
+import { LoginAuthenticatorService } from &#x27;src/app/services/login-authenticator.service&#x27;;
+import { UserSessionService } from &#x27;src/app/services/user-session.service&#x27;;
+import { ProfileUpdaterService } from &#x27;src/app/services/profile-updater.service&#x27;;
+
+@Component({
+  selector: &#x27;app-profile&#x27;,
+  templateUrl: &#x27;./profile.component.html&#x27;,
+  styleUrls: [&#x27;./profile.component.css&#x27;]
+})
+export class ProfileComponent implements OnInit {
+
+  constructor(
+    private _activatedRoute: ActivatedRoute,
+    private _userSession: UserSessionService,
+    private _router: Router) {
+    
+      this._usernameTextField &#x3D; this._userSession.getUsername();
+      this._oldUsername &#x3D; this._usernameTextField;
+      this._userAccountType &#x3D; this._userSession.getAccountType();
+      this._bioTextField &#x3D; this._userSession.getBiography();
+      this._avatarUrl &#x3D; this._userSession.getAvatarUrl();
+      this._gamesWon &#x3D; _userSession.getGamesWon();
+      this._gamesPlayed &#x3D; _userSession.getGamesPlayed();
+  }
+
+  //fields for avatar/picture
+  _avatarToUpload: any;
+  _avatarUrl: any;
+
+  //Text fields
+  _usernameTextField: string;
+  _bioTextField: string;
+  _userAccountType: UserAccountTypes
+  _gamesWon: number;
+  _gamesPlayed: number;
+
+  //Other fields  
+  _oldUsername: string;
+  _accessToken: String;
+  _isEditProfile: boolean &#x3D; false;
+
+  ngOnInit() {
+    if (!this._userSession._isLoggedIn) {
+      this._router.navigate([&#x27;signin&#x27;]);
+    }
+  }
+
+  onUpdate() {
+    this._isEditProfile &#x3D; !this._isEditProfile;
+  }
+
+  onCancel() {
+    this._isEditProfile &#x3D; false;
+  }
+
+  onSubmit() {
+    if (!this.isFormValid()) return;
+    this._isEditProfile &#x3D; false;
+    this._userSession.updateProfile(
+      {
+        username: this._usernameTextField,
+        accountType: this._userAccountType,
+        avatar: this._avatarUrl,
+        biography: this._bioTextField,
+        gamesWon: this._userSession.getGamesWon(),
+        gamesPlayed: this._userSession.getGamesPlayed()
+      }
+    );
+  }
+
+  onImageSelected(files) {
+    this._avatarToUpload &#x3D; files[0];
+    var reader &#x3D; new FileReader();
+    reader.onload &#x3D; (event: any) &#x3D;&gt; {
+      this._avatarUrl &#x3D; event.target.result;
+    }
+    reader.readAsDataURL(this._avatarToUpload)
+  }
+
+  isFormValid(): boolean {
+    if (this._usernameTextField &#x3D;&#x3D; null || this._usernameTextField &#x3D;&#x3D; &#x27;&#x27;) {
+      this.promptUser(&#x27;please enter a username&#x27;);
+      return false;
+    }
+    return true;
+  }
+
+  promptUser(message: String) {
+    //TODO
+  }
+
+}
+</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-templateData">
+        <pre class="line-numbers"><code class="language-html">&lt;body&gt;
+    &lt;nav&gt;
+    &lt;a class&#x3D;&quot;lobbylinkbtn&quot; routerLink&#x3D;&#x27;/game-discovery-lobby&#x27; routerLinkActive&#x3D;&#x27;active&#x27;&gt;Return to Lobby&lt;/a&gt;
+    &lt;/nav&gt;
+    &lt;br&gt;
+    &lt;h2 style&#x3D;&quot;text-align: center&quot;&gt;User Profile&lt;/h2&gt;
+    &lt;br&gt;
+    &lt;div style&#x3D;&quot;text-align: left&quot;&gt;
+        &lt;form class&#x3D;&quot;username-password-Form&quot; method&#x3D;&quot;POST&quot;&gt;
+            &lt;table style&#x3D;&quot;width:50%&quot;&gt;
+                &lt;tr&gt;
+                    &lt;td colspan&#x3D;&quot;2&quot; style&#x3D;&quot;text-align: left&quot;&gt;
+                        &lt;div *ngIf&#x3D;&quot;_isEditProfile&quot;&gt;
+                            &lt;input type&#x3D;&quot;file&quot; (change)&#x3D;&quot;onImageSelected($event.target.files)&quot; accept&#x3D;&quot;image/*&quot;&gt;
+                        &lt;/div&gt;
+                        &lt;div *ngIf&#x3D;&quot;!_isEditProfile&quot;&gt;
+                            &lt;img src&#x3D;&quot;{{_avatarUrl}}&quot; onerror&#x3D;&quot;this.src&#x3D;&#x27;/assets/images/user.png&#x27;&quot; width&#x3D;&quot;100&quot; height&#x3D;&quot;100&quot; /&gt;
+                        &lt;/div&gt;
+                    &lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td&gt;
+                        Username
+                    &lt;/td&gt;
+                    &lt;td&gt;
+                        &lt;div&gt;
+                            {{_usernameTextField}}
+                        &lt;/div&gt;
+                    &lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td&gt;
+                        Account Type
+                    &lt;/td&gt;
+                    &lt;td&gt;
+                        &lt;div&gt;
+                            {{_userAccountType}}
+                        &lt;/div&gt;
+                    &lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td&gt;
+                        Biography
+                    &lt;/td&gt;
+                    &lt;td&gt;
+                        &lt;div *ngIf&#x3D;&quot;_isEditProfile&quot;&gt;
+                            &lt;textarea class&#x3D;&quot;biographyField&quot; name&#x3D;&quot;biography&quot; [(ngModel)]&#x3D;&quot;_bioTextField&quot;&gt;&lt;/textarea&gt;
+                        &lt;/div&gt;
+                        &lt;div *ngIf&#x3D;&quot;!_isEditProfile&quot;&gt;
+                            {{_bioTextField}}
+                        &lt;/div&gt;
+                    &lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td&gt;
+                        Games Won
+                    &lt;/td&gt;
+                    &lt;td&gt;
+                        &lt;div&gt;
+                            {{_gamesWon}}
+                        &lt;/div&gt;
+                    &lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td&gt;
+                        Games Played
+                    &lt;/td&gt;
+                    &lt;td&gt;
+                        &lt;div&gt;
+                            {{_gamesPlayed}}
+                        &lt;/div&gt;
+                    &lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td colspan&#x3D;&quot;2&quot; style&#x3D;&quot;text-align: right&quot;&gt;
+                        &lt;button *ngIf&#x3D;&quot;!_isEditProfile&quot; (click)&#x3D;&quot;onUpdate()&quot;&gt;Update&lt;/button&gt;
+                        &lt;button *ngIf&#x3D;&quot;_isEditProfile&quot; (click)&#x3D;&quot;onSubmit()&quot;&gt;Save&lt;/button&gt;&amp;nbsp;
+                        &lt;button *ngIf&#x3D;&quot;_isEditProfile&quot; (click)&#x3D;&quot;onCancel()&quot;&gt;Cancel&lt;/button&gt;
+                    &lt;/td&gt;
+                &lt;/tr&gt;
+            &lt;/table&gt;
+        &lt;/form&gt;
+    &lt;/div&gt;
+&lt;/body&gt;</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-styleData">
+                <p class="comment">
+                    <code>./profile.component.css</code>
+                </p>
+                <pre class="line-numbers"><code class="language-scss">body {
+  margin: 0px;
+  min-height: 100vh;
+  width: 100%;
+  background-color: #232935;
+  color: #92D5EE;
+}
+
+h2 {
+  position: relative;
+  left: 32%;
+  display: inline-block;
+  font-size: 48px;
+  color: #D64C4C;
+}
+
+.lobbylinkbtn {
+  float: left;
+  margin: 5px;
+  color: #92D5EE;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 25%;
+    margin: auto;
+  }
+  
+  td, th {
+    border: 1px solid #92D5EE;
+    text-align: left;
+    padding: 8px;
+  }
+  
+button {
+  width: 25%;
+  padding: 8px 12px;
+  box-sizing: border-box;
+  background-color: rgb(44, 53, 71);
+  color: #92D5EE;
+  border: 2px solid #92D5EE;
+  border-radius: 4px;
+}
+
+textarea {
+  width: 90%;
+  padding: 4px 5px;
+  box-sizing: border-box;
+  border: 2px solid #92D5EE;
+  border-radius: 4px;
+  background-color: #5A6889;
+  color: #92D5EE;
+}
+  </code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-tree">
+        <div id="tree-container"></div>
+        <div class="tree-legend">
+            <div class="title">
+                <b>Legend</b>
+            </div>
+            <div>
+                <div class="color htmlelement"></div><span>Html element</span>
+            </div>
+            <div>
+                <div class="color component"></div><span>Component</span>
+            </div>
+            <div>
+                <div class="color directive"></div><span>Html element with directive</span>
+            </div>
+        </div>
+    </div>
+
+    
+</div>
+
+<script src="../js/libs/vis.min.js"></script>
+<script src="../js/libs/htmlparser.js"></script>
+<script src="../js/libs/deep-iterator.js"></script>
+<script>
+        var COMPONENT_TEMPLATE = '<div><body>    <nav>    <a class="lobbylinkbtn" routerLink=\'/game-discovery-lobby\' routerLinkActive=\'active\'>Return to Lobby</a>    </nav>    <br>    <h2 style="text-align: center">User Profile</h2>    <br>    <div style="text-align: left">        <form class="username-password-Form" method="POST">            <table style="width:50%">                <tr>                    <td colspan="2" style="text-align: left">                        <div *ngIf="_isEditProfile">                            <input type="file" (change)="onImageSelected($event.target.files)" accept="image/*">                        </div>                        <div *ngIf="!_isEditProfile">                            <img src="{{_avatarUrl}}" onerror="this.src=\'/assets/images/user.png\'" width="100" height="100" />                        </div>                    </td>                </tr>                <tr>                    <td>                        Username                    </td>                    <td>                        <div>                            {{_usernameTextField}}                        </div>                    </td>                </tr>                <tr>                    <td>                        Account Type                    </td>                    <td>                        <div>                            {{_userAccountType}}                        </div>                    </td>                </tr>                <tr>                    <td>                        Biography                    </td>                    <td>                        <div *ngIf="_isEditProfile">                            <textarea class="biographyField" name="biography" [(ngModel)]="_bioTextField"></textarea>                        </div>                        <div *ngIf="!_isEditProfile">                            {{_bioTextField}}                        </div>                    </td>                </tr>                <tr>                    <td>                        Games Won                    </td>                    <td>                        <div>                            {{_gamesWon}}                        </div>                    </td>                </tr>                <tr>                    <td>                        Games Played                    </td>                    <td>                        <div>                            {{_gamesPlayed}}                        </div>                    </td>                </tr>                <tr>                    <td colspan="2" style="text-align: right">                        <button *ngIf="!_isEditProfile" (click)="onUpdate()">Update</button>                        <button *ngIf="_isEditProfile" (click)="onSubmit()">Save</button>&nbsp;                        <button *ngIf="_isEditProfile" (click)="onCancel()">Cancel</button>                    </td>                </tr>            </table>        </form>    </div></body></div>'
+    var COMPONENTS = [{'name': 'AppComponent', 'selector': 'app-root'},{'name': 'ChatComponent', 'selector': 'app-chat'},{'name': 'CreateAccountComponent', 'selector': 'app-create-account'},{'name': 'GameConfigLobbyComponent', 'selector': 'app-game-config-lobby'},{'name': 'GameDashboardComponent', 'selector': 'app-game-dashboard'},{'name': 'gameDiscoveryLobbyComponent', 'selector': 'app-game-discovery-lobby'},{'name': 'GamePregameComponent', 'selector': 'app-game-pregame'},{'name': 'ProfileComponent', 'selector': 'app-profile'},{'name': 'SigninComponent', 'selector': 'app-signin'},{'name': 'SocketsComponent', 'selector': 'app-sockets'}];
+    var DIRECTIVES = [];
+    var ACTUAL_COMPONENT = {'name': 'ProfileComponent'};
+</script>
+<script src="../js/tree.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                   </div><div class="search-results">
+    <div class="has-results">
+        <h1 class="search-results-title"><span class='search-results-count'></span> result-matching "<span class='search-query'></span>"</h1>
+        <ul class="search-results-list"></ul>
+    </div>
+    <div class="no-results">
+        <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+    </div>
+</div>
+</div>
+               <!-- END CONTENT -->
+           </div>
+       </div>
+
+       <script>
+            var COMPODOC_CURRENT_PAGE_DEPTH = 1;
+            var COMPODOC_CURRENT_PAGE_CONTEXT = 'component';
+            var COMPODOC_CURRENT_PAGE_URL = 'ProfileComponent.html';
+       </script>
+
+       <script src="../js/libs/custom-elements.min.js"></script>
+       <script src="../js/libs/lit-html.js"></script>
+       <!-- Required to polyfill modern browsers as code is ES5 for IE... -->
+       <script src="../js/libs/custom-elements-es5-adapter.js" charset="utf-8" defer></script>
+       <script src="../js/menu-wc.js" defer></script>
+
+       <script src="../js/libs/bootstrap-native.js"></script>
+
+       <script src="../js/libs/es6-shim.min.js"></script>
+       <script src="../js/libs/EventDispatcher.js"></script>
+       <script src="../js/libs/promise.min.js"></script>
+       <script src="../js/libs/zepto.min.js"></script>
+
+       <script src="../js/compodoc.js"></script>
+
+       <script src="../js/tabs.js"></script>
+       <script src="../js/menu.js"></script>
+       <script src="../js/libs/clipboard.min.js"></script>
+       <script src="../js/libs/prism.js"></script>
+       <script src="../js/sourceCode.js"></script>
+          <script src="../js/search/search.js"></script>
+          <script src="../js/search/lunr.min.js"></script>
+          <script src="../js/search/search-lunr.js"></script>
+          <script src="../js/search/search_index.js"></script>
+       <script src="../js/lazy-load-graphs.js"></script>
+
+
+    </body>
+</html>

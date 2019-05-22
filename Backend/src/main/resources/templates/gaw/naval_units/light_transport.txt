@@ -1,0 +1,8 @@
+type=Light Transport
+hp=20000
+size=5
+armor=3
+evasion=4
+firepower=2
+range=1
+craftDefense=2

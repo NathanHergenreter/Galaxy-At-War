@@ -1,0 +1,6 @@
+name=Plains
+minRoughness=0
+maxRoughness=10
+popMod=.9
+minMinerals=0
+maxMinerals=3

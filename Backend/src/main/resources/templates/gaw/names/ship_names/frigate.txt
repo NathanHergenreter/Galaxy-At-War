@@ -1,0 +1,152 @@
+type=Frigate
+Alligator
+Ant
+Black Bear
+Bumblebee
+Bobcat
+Cheetah
+Rooster
+Gorilla
+Bull
+Crocodile
+Buck
+Hound
+Dolphin
+Swan
+Eagle
+Elephant
+Swordfish
+Fox
+Giraffe
+Goat
+Rhinocerous
+Stallion
+Kangaroo
+Lion
+Lobster
+Monkey
+Octopus
+Owl
+Panda
+Boar
+Jack Rabbit
+Rat
+Scorpion
+Seal
+Shark
+Ram
+Rattler Snake
+Black Widow
+Flying Squirrel
+Tiger
+Snapping Turtle
+Wolf
+Zebra
+Wasp
+Warthog
+Falcon
+Crow
+Raven
+Blue Jay
+Sparrow
+Heron
+Swallow
+Cardinal
+Lynx
+Puma
+Panther
+Albatross
+Anteater
+Armadillo
+Antelope
+Vampire Bat
+Polar Bear
+Brown Bear
+Sloth
+Beaver
+Bison
+Caribou
+Chameleon
+Chinchilla
+Cobra
+Cockroach
+Coyote
+Crab
+Crane
+Dragonfly
+Echidna
+Eel
+Ferret
+Finch
+Flamingo
+Bullfrog
+Gaur
+Gazelle
+Gerbil
+Grasshopper
+Hare
+Hawk
+Hedgehog
+Herring
+Hippo
+Hornet
+Hummingbird
+Hyena
+Jackal
+Komodo Dragon
+Leopard
+Locust
+Mammoth
+Manatee
+Mandrill
+Mole
+Mongoose
+Mosquito
+Narwhal
+Newt
+Nightingale
+Octopus
+Otter
+Oyster
+Parrot
+Partridge
+Pelican
+Penguin
+Emperor Penguin
+Pheasant
+Pidgeon
+Pony
+Porpoise
+Raccoon
+Salamander
+Sardine
+Sea Lion
+Seahorse
+Seal
+Skunk
+Boa Constrictor
+Anaconda
+Python
+Viper
+Tarantula
+Daddy Longlegs
+Orbweaver
+Meshweaver
+Wolf Spider
+Recluse
+Crab Spider
+Squid
+Starling
+Termite
+Toad
+Turkey
+Wallaby
+Walrus
+Water Buffalo
+Weasel
+Blue Whale
+Sperm Whale
+Beluga
+Wolverine
+Wombat
+Yak

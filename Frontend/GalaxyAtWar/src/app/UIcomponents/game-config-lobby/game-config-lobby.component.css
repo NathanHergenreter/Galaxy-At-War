@@ -1,0 +1,47 @@
+.container-fluid {
+    margin: 0px;
+    min-height: 100vh;
+    width: 100%;
+    background-color: #232935;
+    color: #92D5EE;
+}
+
+h2 {
+    font-size: 52px;
+    color: #D64C4C;
+}
+
+label {
+    font-size: 16px;
+    position: relative;
+    left: 2%;
+}
+
+input {
+    padding: 8px 10px;
+    margin-bottom: 4px;
+    box-sizing: border-box;
+    background-color: #5A6889;
+    color: #92D5EE;
+    border: 2px solid #92D5EE;
+    border-radius: 4px;
+    outline: none;
+}
+
+button {
+    width: 100%;
+    font-size: 20px;
+    padding: 4px 12px;
+    margin: 5px;
+    position: relative;
+    box-sizing: border-box;
+    background-color: rgb(44, 53, 71);
+    color: #92D5EE;
+    border: 2px solid #92D5EE;
+    border-radius: 4px;
+    left: -4px;
+}
+
+::placeholder {
+    color: #9EB7C1;
+}

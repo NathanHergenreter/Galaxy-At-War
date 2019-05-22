@@ -1,0 +1,47 @@
+.mainDiv{
+    width: 369px;
+    margin-top: 70px;
+    margin-right:20px;
+    float: right;
+    background-color: #232935;
+    color: #92D5EE;
+}
+
+.users {
+    text-align: left;
+    width: 100%;
+    padding-left: 8px;
+    background-color: #5A6889;
+    border: 1px solid #92D5EE;
+}
+
+.messages-container {
+    text-align: left;
+    height: 250px;
+    background-color: #3e495e;
+    border: 1px solid #92D5EE;
+    overflow: auto;
+}
+
+.messageEntry {
+    background-color: rgb(44, 53, 71);
+    color: #92D5EE;
+    border: 1px solid #92D5EE;
+}
+
+button {
+    position: relative;
+    padding: 8px 12px;
+    box-sizing: border-box;
+    background-color: rgb(44, 53, 71);
+    color: #92D5EE;
+    border: 2px solid #92D5EE;
+  }
+
+  select {
+    width: 90%;
+    background-color: rgb(44, 53, 71);
+    color: #92D5EE;
+    border: 1px solid #92D5EE;
+    margin-bottom: 6px;
+  }

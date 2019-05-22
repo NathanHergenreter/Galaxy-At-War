@@ -1,0 +1,16 @@
+type=Air Assault Corps
+transportType=Heavy Transport
+buildTime=3
+cost=600
+manpower=14
+alloys=6
+hp=40000
+hardness=4
+attack=9
+defense=5
+boardingAttack=7
+boardingDefense=7
+infantryPower=8
+armorPower=3
+artilleryPower=5
+airPower=8

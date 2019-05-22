@@ -1,0 +1,15 @@
+type=Assault Cruiser
+cargoType=Fleet Marine Force
+buildTime=12
+cost=3000
+manpower=25
+alloys=28
+hp=80000
+size=8
+armor=8
+evasion=1
+firepower=6
+range=4
+craftHP=9000
+craftPower=6
+craftDefense=7

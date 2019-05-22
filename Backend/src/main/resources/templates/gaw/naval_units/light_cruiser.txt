@@ -1,0 +1,15 @@
+type=Light Cruiser
+cargoType=Marine Division
+buildTime=4
+cost=800
+manpower=7
+alloys=15
+hp=32000
+size=5
+armor=5
+evasion=7
+firepower=5
+range=2
+craftHP=3500
+craftPower=4
+craftDefense=7

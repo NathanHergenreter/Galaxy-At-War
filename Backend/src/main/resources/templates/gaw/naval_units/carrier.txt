@@ -1,0 +1,15 @@
+type=Carrier
+cargoType=Marine Corps
+buildTime=10
+cost=2500
+manpower=12
+alloys=28
+hp=80000
+size=8
+armor=7
+evasion=1
+firepower=5
+range=4
+craftHP=14000
+craftPower=8
+craftDefense=7

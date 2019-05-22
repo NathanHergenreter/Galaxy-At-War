@@ -1,0 +1,15 @@
+type=Super Carrier
+cargoType=Fleet Marine Force
+buildTime=15
+cost=4000
+manpower=30
+alloys=50
+hp=100000
+size=9
+armor=9
+evasion=0
+firepower=8
+range=5
+craftHP=22000
+craftPower=9
+craftDefense=8

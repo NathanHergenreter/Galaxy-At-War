@@ -1,0 +1,35 @@
+<div class="container-fluid">
+  <h2 style="text-align: center">Settings</h2>
+  <div class="row" style="margin-top:15px">
+    <div class="col-md-4 offset-md-4" style="padding-left: 2px;padding-right: 2px;">
+      <form class="game-config-Form">
+        <div class="form-group">
+          <label for="name">Lobby Name</label>
+          <input type="text" maxlength="250" class="form-control" (input)="onNameOfGameInput($event.target.value)" id="name" placeholder="Name">
+        </div>
+        <div class="form-group">
+          <label for="playercount">Player Count &nbsp;<i class="fa fa-exclamation-circle" data-toggle="tooltip" data-placement="top" title="The number of players to be in the game"></i></label>
+          <input type="number" class="form-control" (input)="onPlayerCountInput($event.target.value)" min="0" max="8" maxlength="1" onkeyup="this.value = minmax(this.value, 0, 8)" id="playercount" placeholder="1-8">
+        </div>
+        <div class="form-group">
+          <label for="plantCount">Planet Count &nbsp;<i class="fa fa-exclamation-circle" data-toggle="tooltip" data-placement="top" title="The number of planets on the map"></i></label>
+          <input type="number" class="form-control" (input)="onPlanetCountInput($event.target.value)" maxlength="2" min="0" max="100" onkeyup="this.value = minmax(this.value, 0, 100)" id="plantCount" placeholder="5-100">
+        </div>
+        <div class="form-group">
+          <label for="startingMoney">Starting Money &nbsp;<i class="fa fa-exclamation-circle" data-toggle="tooltip" data-placement="top" title="The amount of money each player starts with"></i></label>
+          <input type="number" class="form-control" (input)="onStartingMoneyInput($event.target.value)" maxlength="4" min="0" max="10000" onkeyup="this.value = minmax(this.value, 0, 10000)" id="startingMoney" placeholder="0-10,000">
+        </div>
+        <div class="form-group">
+          <label for="startpoint">Starting Points &nbsp;<i class="fa fa-exclamation-circle" data-toggle="tooltip" data-placement="top" title="The number of points each player has to choose starting positions"></i></label>
+          <input type="number"  class="form-control startpoint-input" (input)="onStartPointInput($event.target.value)" id="startpoint" maxlength="4" min="0" max="5000" onkeyup="this.value = minmax(this.value, 0, 5000)" placeholder="0-5,000">
+        </div>
+        <button type="submit" (click)="onSubmit($event)" class="btn btn-primary">Publish Game</button>
+      </form>
+    </div>
+  </div>
+  <br>
+  <br>
+  <div id="popover-content" style="display:none">
+      <label>Your Settings &nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-cog"></i></label>
+  <div>
+</div>

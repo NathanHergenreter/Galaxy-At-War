@@ -1,0 +1,11 @@
+type=Marine Division
+hp=16000
+hardness=3
+attack=6
+defense=6
+boardingAttack=8
+boardingDefense=8
+infantryPower=7
+armorPower=3
+artilleryPower=2
+airPower=4

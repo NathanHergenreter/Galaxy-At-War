@@ -1,0 +1,16 @@
+type=Android Corps
+transportType=Heavy Transport
+buildTime=2
+cost=500
+manpower=0
+alloys=8
+hp=35000
+hardness=7
+attack=7
+defense=7
+boardingAttack=7
+boardingDefense=7
+infantryPower=7
+armorPower=6
+artilleryPower=5
+airPower=3

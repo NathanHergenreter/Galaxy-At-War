@@ -1,0 +1,6 @@
+name=Jungle
+minRoughness=80
+maxRoughness=100
+popMod=.8
+minMinerals=0
+maxMinerals=3

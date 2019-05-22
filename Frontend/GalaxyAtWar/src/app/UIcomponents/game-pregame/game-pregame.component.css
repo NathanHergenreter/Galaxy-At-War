@@ -1,0 +1,76 @@
+body {
+    margin: 0px;
+    min-height: 100vh;
+    width: 100%;
+    background-color: #232935;
+    color: #92D5EE;
+}
+
+h1 {
+    text-align: center;
+    font-size: 54px;
+    margin-bottom: 20px;
+    color: #D64C4C;
+}
+
+.hlabel {
+    position: relative;
+    left: 280px;
+    font-size: 32px;
+    color: #D64C4C;
+}
+
+.box {
+    margin: 5px 20px;
+    min-height: 50vh;
+    background-color: #5A6889;
+    border: 1px solid #92D5EE;
+}
+
+.players {
+    float: left;
+    width: 50%;
+}
+
+.config {
+    float: right;
+    width: 35%;
+}
+
+.decision {
+    width: 12.5%;
+    padding: 8px 12px;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-left: 20px;
+    box-sizing: border-box;
+    background-color: rgb(44, 53, 71);
+    color: #92D5EE;
+    border: 2px solid #92D5EE;
+    border-radius: 4px;
+}
+
+.row {
+    position: relative;
+    left: 3%;
+    width: 90%;
+    margin-top: 15px;
+    margin-left: 6px;
+    padding: 6px 10px;
+    font-size: 18px;
+    background-color: #3e495e;
+}
+
+.colorInput {
+    margin-left: 10px;
+}
+
+.colorBox {
+    width: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.rowTitle {
+    margin-right: 6px;
+}

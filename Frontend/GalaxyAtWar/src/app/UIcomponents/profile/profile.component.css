@@ -1,0 +1,55 @@
+body {
+  margin: 0px;
+  min-height: 100vh;
+  width: 100%;
+  background-color: #232935;
+  color: #92D5EE;
+}
+
+h2 {
+  position: relative;
+  left: 32%;
+  display: inline-block;
+  font-size: 48px;
+  color: #D64C4C;
+}
+
+.lobbylinkbtn {
+  float: left;
+  margin: 5px;
+  color: #92D5EE;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 25%;
+    margin: auto;
+  }
+  
+  td, th {
+    border: 1px solid #92D5EE;
+    text-align: left;
+    padding: 8px;
+  }
+  
+button {
+  width: 25%;
+  padding: 8px 12px;
+  box-sizing: border-box;
+  background-color: rgb(44, 53, 71);
+  color: #92D5EE;
+  border: 2px solid #92D5EE;
+  border-radius: 4px;
+}
+
+textarea {
+  width: 90%;
+  padding: 4px 5px;
+  box-sizing: border-box;
+  border: 2px solid #92D5EE;
+  border-radius: 4px;
+  background-color: #5A6889;
+  color: #92D5EE;
+}
+  

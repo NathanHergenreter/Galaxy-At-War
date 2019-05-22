@@ -1,0 +1,130 @@
+#Document server API's here
+
+/
+
+/api
+	(GET) /stat/active_users	returns number of active users
+	(GET) /stat/current_users	return number of user accounts
+	(GET) /stat/active_games	return number of active games
+	(GET) /stat/games_played	return number of played games
+	
+	(GET) account by username, access_token
+	(POST) login by username, password
+	(POST) register by username, password, account type, avatar (img file), biography
+
+/chat
+					return list of conversation id's
+	(GET) /conversations?username=<username>
+					delete a message
+	(DELETE) /delete_msg?convo_id=<id>&msg_id=<id>
+	
+/user
+					register user
+	(POST) /register 	username,password
+	(POST) /unregister 	username,password
+	(POST) /login 		username,password
+	(GET)  /logout		
+	(GET)  /befriend	friendname
+	(GET)  /unfriend	friendname
+	(GET)  /username	returns currently signed in username
+	(GET)  /friends		username
+	(POST) /profile/bio	bio
+	(GET)  /profile/bio	username
+	(POST) /profile/avatar	file
+	(GET)  /profile/avatar	username
+/dev
+	(GET)  /socket			return socketdev.html
+/game
+	(POST) /initgame	hostname, gamename, numplayers, numplanets, startmoney, startpoints
+	(GET)  /config		
+	(POST) /endgame
+	(SOCK) /broadcast/data
+	
+	
+	
+# Update Message (Server-to-Client) List and Format
+
+The object sent to the client containing the information used in making updates clientside
+is the UpdateMessasge, located in the Game package. The UpdateMessage contains a string
+indicating the type of update. A 2D array of longs is sent containing relevant id's.
+Typically, each sub array will only contain one element, however, sometimes it will be a list
+of id's all related to a particular aspect of the update. In addition, the UpdateMessage may
+contain an int value or a list of strings.
+
+--Faction--
+
+- modMoney/modManpower/modAlloys: 
+    - (id's) Faction id
+    - (value) New resource value
+
+--Planet--
+
+- planetSetOwner:
+    - (id's) Faction (New Owner) id, Planet id
+    
+- queueUnit/Ship:
+    - (id's) Faction id, Planet id, Unit/Ship Type id
+
+- createUnit/Ship:
+    - (id's) Faction id, Planet id, Army/Fleet id, Unit/Ship id, Unit/Ship type id,
+     Transport/Cargo id, Transport/Cargo type id
+    - (strings) Army/Fleet name, Transport Fleet/Cargo Army name
+
+- cancelUnit/Ship:
+    - (id's) Faction id, Planet id
+
+- combatStartLand/NavalPlanet:
+    - (id's) Planet id
+
+- combatEndLand/NavalPlanet:
+    - (id's) Planet id
+
+--Hyperlane--
+
+- combatStartNavalLane:
+    - (id's) Planet A id, Planet B id #NOTE - lanes have no id, must determine by points
+
+- combatEndNavalLane:
+    - (id's) Planet A id, Planet B id #NOTE - lanes have no id, must determine by points
+    
+--Army and Fleet--
+
+- army/fleetEmbark:
+    - (id's) Faction id, Army/Fleet id
+    
+- army/fleetMerge:
+    - (id's) Faction id, ArmyMergedInto id, ArmyMergedFrom id
+    
+- army/fleetSplit: Faction id, ArmyOld id, ArmyNew id, TransportNew id, Split units ids || ArmyNew name, TransportNew name
+    - (id's) Faction id, Army/FleetOld id, Army/FleetNew id, Transport/CargoNew id, List of Split units/ships id's
+    - (strings) - Army/FleetNew name, Transport/CargoNew name
+    
+- army/fleetDisband: Faction id, Army id, Transport id
+    - (id's) Faction id, Army/Fleet id, Transport/Cargo id
+    
+--Fleet Only--
+
+- fleetMovePlanet:
+    - (id's) Faction id, Planet id, Fleet id
+    
+- fleetMoveLane:
+    - (id's) Faction id, PtA id, PtB id, Fleet id #NOTE - lanes do not have id's so must use planets to determine edge
+    
+- fleetMoveQueue:
+    - (id's) Faction id, Planet id, Fleet id
+
+- fleetMoveCancel:
+    - (id's) Faction id, Fleet id
+    
+--Units and Ships--
+
+- unit/shipDisband:
+    - (id's) Faction id, Army/Fleet id, Unit/Ship id
+    
+- unit/shipHP
+    - (id's) Faction id, Army/Fleet id, Unit/Ship id
+    - (value) New HP
+    
+- shipCraftHP:  #Ships only
+    - (id's) Faction id, Fleet id, Ship id
+    - (value) New Craft HP

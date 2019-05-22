@@ -1,0 +1,6 @@
+name=Forest
+minRoughness=45
+maxRoughness=60
+popMod=.9
+minMinerals=1
+maxMinerals=4
